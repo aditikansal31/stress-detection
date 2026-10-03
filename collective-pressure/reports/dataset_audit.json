@@ -1,0 +1,5377 @@
+{
+  "records": [
+    {
+      "source": "datasets/Stress Indicators Dataset for Mental Health Classi/Stress Indicators Dataset for Mental Health Classi/Stress Indicators Dataset for Mental Health Classification.csv",
+      "table": "Stress Indicators Dataset for Mental Health Classification",
+      "rows": 2000,
+      "columns_count": 26,
+      "columns": [
+        {
+          "name": "gender",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "age",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 15
+        },
+        {
+          "name": "stress_experience",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "heartbeat_palpitations",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "anxiety_tension",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "sleep_problems",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "restlessness",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "headaches",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "irritability",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "concentration_problems",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "sadness_low_mood",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "health_issues",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "loneliness_isolation",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "academic_overload",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "peer_competition",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "relationship_stress",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "professor_difficulties",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "work_environment",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "lack_relaxation_time",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "home_environment",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "low_academic_confidence",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "subject_confidence",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "academic_conflicts",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "class_attendance",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "weight_changes",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5
+        },
+        {
+          "name": "stress_type",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 3
+        }
+      ],
+      "duplicate_rows": 1191,
+      "text_lengths": {},
+      "label_distributions": {
+        "stress_experience": {
+          "3": 631,
+          "2": 531,
+          "4": 447,
+          "5": 204,
+          "1": 187
+        },
+        "relationship_stress": {
+          "2": 536,
+          "1": 528,
+          "3": 523,
+          "4": 239,
+          "5": 174
+        },
+        "stress_type": {
+          "1": 1828,
+          "2": 102,
+          "0": 70
+        }
+      },
+      "safe_non_text_preview": {
+        "gender": [
+          1,
+          0,
+          0
+        ],
+        "age": [
+          20,
+          19,
+          21
+        ],
+        "stress_experience": [
+          1,
+          4,
+          4
+        ],
+        "heartbeat_palpitations": [
+          2,
+          5,
+          2
+        ],
+        "anxiety_tension": [
+          2,
+          5,
+          3
+        ],
+        "sleep_problems": [
+          4,
+          4,
+          3
+        ],
+        "restlessness": [
+          3,
+          4,
+          4
+        ],
+        "headaches": [
+          1,
+          5,
+          4
+        ],
+        "irritability": [
+          4,
+          4,
+          1
+        ],
+        "concentration_problems": [
+          5,
+          5,
+          3
+        ],
+        "sadness_low_mood": [
+          5,
+          2,
+          3
+        ],
+        "health_issues": [
+          5,
+          2,
+          2
+        ],
+        "loneliness_isolation": [
+          5,
+          2,
+          1
+        ],
+        "academic_overload": [
+          5,
+          1,
+          2
+        ],
+        "peer_competition": [
+          4,
+          2,
+          3
+        ],
+        "relationship_stress": [
+          4,
+          2,
+          3
+        ],
+        "professor_difficulties": [
+          2,
+          2,
+          2
+        ],
+        "work_environment": [
+          3,
+          4,
+          3
+        ],
+        "lack_relaxation_time": [
+          1,
+          4,
+          3
+        ],
+        "home_environment": [
+          1,
+          5,
+          3
+        ],
+        "academic_conflicts": [
+          1,
+          5,
+          4
+        ],
+        "class_attendance": [
+          3,
+          3,
+          4
+        ],
+        "weight_changes": [
+          2,
+          5,
+          2
+        ],
+        "stress_type": [
+          1,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "source": "datasets/archive/data/dev.tsv",
+      "table": "dev",
+      "rows": 5426,
+      "columns_count": 3,
+      "columns": [
+        {
+          "name": "text",
+          "dtype": "string",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5423
+        },
+        {
+          "name": "emotion_ids",
+          "dtype": "string",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 296
+        },
+        {
+          "name": "comment_id",
+          "dtype": "string",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5426
+        }
+      ],
+      "duplicate_rows": 0,
+      "text_lengths": {
+        "text": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 68.24,
+          "median_characters": 64.0,
+          "p90_characters": 121.0,
+          "p99_characters": 152.0
+        },
+        "comment_id": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 7.0,
+          "median_characters": 7.0,
+          "p90_characters": 7.0,
+          "p99_characters": 7.0
+        }
+      },
+      "label_distributions": {},
+      "safe_non_text_preview": {}
+    },
+    {
+      "source": "datasets/archive/data/ekman_labels.csv",
+      "table": "ekman_labels",
+      "rows": 6,
+      "columns_count": 1,
+      "columns": [
+        {
+          "name": "anger",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 6
+        }
+      ],
+      "duplicate_rows": 0,
+      "text_lengths": {},
+      "label_distributions": {},
+      "safe_non_text_preview": {
+        "anger": [
+          "disgust",
+          "fear",
+          "joy"
+        ]
+      }
+    },
+    {
+      "source": "datasets/archive/data/full_dataset/goemotions_1.csv",
+      "table": "goemotions_1",
+      "rows": 70000,
+      "columns_count": 37,
+      "columns": [
+        {
+          "name": "text",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 43182
+        },
+        {
+          "name": "id",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 43358
+        },
+        {
+          "name": "author",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 37803
+        },
+        {
+          "name": "subreddit",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 483
+        },
+        {
+          "name": "link_id",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 35054
+        },
+        {
+          "name": "parent_id",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 41423
+        },
+        {
+          "name": "created_utc",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 42947
+        },
+        {
+          "name": "rater_id",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 81
+        },
+        {
+          "name": "example_very_unclear",
+          "dtype": "bool",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "admiration",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "amusement",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "anger",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "annoyance",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "approval",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "caring",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "confusion",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "curiosity",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "desire",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "disappointment",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "disapproval",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "disgust",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "embarrassment",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "excitement",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "fear",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "gratitude",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "grief",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "joy",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "love",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "nervousness",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "optimism",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "pride",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "realization",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "relief",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "remorse",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "sadness",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "surprise",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "neutral",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        }
+      ],
+      "duplicate_rows": 0,
+      "text_lengths": {
+        "text": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 69.42,
+          "median_characters": 67.0,
+          "p90_characters": 120.0,
+          "p99_characters": 151.0
+        }
+      },
+      "label_distributions": {
+        "example_very_unclear": {
+          "False": 68871,
+          "True": 1129
+        },
+        "admiration": {
+          "0": 64353,
+          "1": 5647
+        },
+        "amusement": {
+          "0": 66919,
+          "1": 3081
+        },
+        "anger": {
+          "0": 67411,
+          "1": 2589
+        },
+        "annoyance": {
+          "0": 65557,
+          "1": 4443
+        },
+        "approval": {
+          "0": 64072,
+          "1": 5928
+        },
+        "caring": {
+          "0": 68012,
+          "1": 1988
+        },
+        "confusion": {
+          "0": 67529,
+          "1": 2471
+        },
+        "curiosity": {
+          "0": 66733,
+          "1": 3267
+        },
+        "desire": {
+          "0": 68752,
+          "1": 1248
+        },
+        "disappointment": {
+          "0": 67229,
+          "1": 2771
+        },
+        "disapproval": {
+          "0": 66226,
+          "1": 3774
+        },
+        "disgust": {
+          "0": 68296,
+          "1": 1704
+        },
+        "embarrassment": {
+          "0": 69183,
+          "1": 817
+        },
+        "excitement": {
+          "0": 68100,
+          "1": 1900
+        },
+        "fear": {
+          "0": 68952,
+          "1": 1048
+        },
+        "gratitude": {
+          "0": 66137,
+          "1": 3863
+        },
+        "grief": {
+          "0": 69773,
+          "1": 227
+        },
+        "joy": {
+          "0": 67393,
+          "1": 2607
+        },
+        "love": {
+          "0": 67255,
+          "1": 2745
+        },
+        "nervousness": {
+          "0": 69402,
+          "1": 598
+        },
+        "optimism": {
+          "0": 67113,
+          "1": 2887
+        },
+        "pride": {
+          "0": 69548,
+          "1": 452
+        },
+        "realization": {
+          "0": 67133,
+          "1": 2867
+        },
+        "relief": {
+          "0": 69548,
+          "1": 452
+        },
+        "remorse": {
+          "0": 69151,
+          "1": 849
+        },
+        "sadness": {
+          "0": 67807,
+          "1": 2193
+        },
+        "surprise": {
+          "0": 68194,
+          "1": 1806
+        },
+        "neutral": {
+          "0": 51577,
+          "1": 18423
+        }
+      },
+      "safe_non_text_preview": {
+        "subreddit": [
+          "nrl",
+          "unpopularopinion",
+          "confessions"
+        ],
+        "created_utc": [
+          1548381039.0,
+          1548084169.0,
+          1546427744.0
+        ],
+        "example_very_unclear": [
+          false,
+          true,
+          false
+        ],
+        "admiration": [
+          0,
+          0,
+          0
+        ],
+        "amusement": [
+          0,
+          0,
+          0
+        ],
+        "anger": [
+          0,
+          0,
+          0
+        ],
+        "annoyance": [
+          0,
+          0,
+          0
+        ],
+        "approval": [
+          0,
+          0,
+          0
+        ],
+        "caring": [
+          0,
+          0,
+          0
+        ],
+        "confusion": [
+          0,
+          0,
+          0
+        ],
+        "curiosity": [
+          0,
+          0,
+          0
+        ],
+        "desire": [
+          0,
+          0,
+          0
+        ],
+        "disappointment": [
+          0,
+          0,
+          0
+        ],
+        "disapproval": [
+          0,
+          0,
+          0
+        ],
+        "disgust": [
+          0,
+          0,
+          0
+        ],
+        "embarrassment": [
+          0,
+          0,
+          0
+        ],
+        "excitement": [
+          0,
+          0,
+          0
+        ],
+        "fear": [
+          0,
+          0,
+          0
+        ],
+        "gratitude": [
+          0,
+          0,
+          0
+        ],
+        "grief": [
+          0,
+          0,
+          0
+        ],
+        "joy": [
+          0,
+          0,
+          0
+        ],
+        "love": [
+          0,
+          0,
+          0
+        ],
+        "nervousness": [
+          0,
+          0,
+          0
+        ],
+        "optimism": [
+          0,
+          0,
+          0
+        ],
+        "realization": [
+          0,
+          0,
+          0
+        ],
+        "relief": [
+          0,
+          0,
+          0
+        ],
+        "remorse": [
+          0,
+          0,
+          0
+        ],
+        "sadness": [
+          1,
+          0,
+          0
+        ],
+        "surprise": [
+          0,
+          0,
+          0
+        ],
+        "neutral": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "source": "datasets/archive/data/full_dataset/goemotions_2.csv",
+      "table": "goemotions_2",
+      "rows": 70000,
+      "columns_count": 37,
+      "columns": [
+        {
+          "name": "text",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 43293
+        },
+        {
+          "name": "id",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 43448
+        },
+        {
+          "name": "author",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 37837
+        },
+        {
+          "name": "subreddit",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 483
+        },
+        {
+          "name": "link_id",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 34995
+        },
+        {
+          "name": "parent_id",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 41480
+        },
+        {
+          "name": "created_utc",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 43024
+        },
+        {
+          "name": "rater_id",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 82
+        },
+        {
+          "name": "example_very_unclear",
+          "dtype": "bool",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "admiration",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "amusement",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "anger",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "annoyance",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "approval",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "caring",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "confusion",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "curiosity",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "desire",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "disappointment",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "disapproval",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "disgust",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "embarrassment",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "excitement",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "fear",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "gratitude",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "grief",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "joy",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "love",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "nervousness",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "optimism",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "pride",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "realization",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "relief",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "remorse",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "sadness",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "surprise",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "neutral",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        }
+      ],
+      "duplicate_rows": 0,
+      "text_lengths": {
+        "text": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 69.43,
+          "median_characters": 67.0,
+          "p90_characters": 121.0,
+          "p99_characters": 150.0
+        }
+      },
+      "label_distributions": {
+        "example_very_unclear": {
+          "False": 68907,
+          "True": 1093
+        },
+        "admiration": {
+          "0": 64227,
+          "1": 5773
+        },
+        "amusement": {
+          "0": 66956,
+          "1": 3044
+        },
+        "anger": {
+          "0": 67238,
+          "1": 2762
+        },
+        "annoyance": {
+          "0": 65443,
+          "1": 4557
+        },
+        "approval": {
+          "0": 64215,
+          "1": 5785
+        },
+        "caring": {
+          "0": 68015,
+          "1": 1985
+        },
+        "confusion": {
+          "0": 67612,
+          "1": 2388
+        },
+        "curiosity": {
+          "0": 66810,
+          "1": 3190
+        },
+        "desire": {
+          "0": 68755,
+          "1": 1245
+        },
+        "disappointment": {
+          "0": 67106,
+          "1": 2894
+        },
+        "disapproval": {
+          "0": 66202,
+          "1": 3798
+        },
+        "disgust": {
+          "0": 68247,
+          "1": 1753
+        },
+        "embarrassment": {
+          "0": 69144,
+          "1": 856
+        },
+        "excitement": {
+          "0": 68121,
+          "1": 1879
+        },
+        "fear": {
+          "0": 68933,
+          "1": 1067
+        },
+        "gratitude": {
+          "0": 66159,
+          "1": 3841
+        },
+        "grief": {
+          "0": 69780,
+          "1": 220
+        },
+        "joy": {
+          "0": 67345,
+          "1": 2655
+        },
+        "love": {
+          "0": 67303,
+          "1": 2697
+        },
+        "nervousness": {
+          "0": 69419,
+          "1": 581
+        },
+        "optimism": {
+          "0": 67044,
+          "1": 2956
+        },
+        "pride": {
+          "0": 69571,
+          "1": 429
+        },
+        "realization": {
+          "0": 67083,
+          "1": 2917
+        },
+        "relief": {
+          "0": 69560,
+          "1": 440
+        },
+        "remorse": {
+          "0": 69161,
+          "1": 839
+        },
+        "sadness": {
+          "0": 67772,
+          "1": 2228
+        },
+        "surprise": {
+          "0": 68195,
+          "1": 1805
+        },
+        "neutral": {
+          "0": 51741,
+          "1": 18259
+        }
+      },
+      "safe_non_text_preview": {
+        "subreddit": [
+          "EdmontonOilers",
+          "MurderedByWords",
+          "raisedbynarcissists"
+        ],
+        "created_utc": [
+          1547529335.0,
+          1547777218.0,
+          1546482460.0
+        ],
+        "example_very_unclear": [
+          false,
+          false,
+          false
+        ],
+        "admiration": [
+          0,
+          0,
+          0
+        ],
+        "amusement": [
+          0,
+          0,
+          0
+        ],
+        "anger": [
+          0,
+          1,
+          0
+        ],
+        "annoyance": [
+          0,
+          0,
+          0
+        ],
+        "approval": [
+          0,
+          0,
+          0
+        ],
+        "caring": [
+          0,
+          0,
+          0
+        ],
+        "confusion": [
+          0,
+          0,
+          0
+        ],
+        "curiosity": [
+          0,
+          0,
+          0
+        ],
+        "desire": [
+          0,
+          0,
+          0
+        ],
+        "disappointment": [
+          0,
+          0,
+          0
+        ],
+        "disapproval": [
+          0,
+          0,
+          0
+        ],
+        "disgust": [
+          0,
+          0,
+          0
+        ],
+        "embarrassment": [
+          0,
+          0,
+          0
+        ],
+        "excitement": [
+          0,
+          0,
+          0
+        ],
+        "fear": [
+          0,
+          0,
+          0
+        ],
+        "gratitude": [
+          0,
+          0,
+          1
+        ],
+        "grief": [
+          0,
+          0,
+          0
+        ],
+        "joy": [
+          0,
+          0,
+          0
+        ],
+        "love": [
+          0,
+          0,
+          0
+        ],
+        "nervousness": [
+          0,
+          0,
+          0
+        ],
+        "optimism": [
+          1,
+          0,
+          0
+        ],
+        "realization": [
+          0,
+          0,
+          0
+        ],
+        "relief": [
+          0,
+          0,
+          0
+        ],
+        "remorse": [
+          0,
+          0,
+          0
+        ],
+        "sadness": [
+          0,
+          0,
+          0
+        ],
+        "surprise": [
+          0,
+          0,
+          0
+        ],
+        "neutral": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "source": "datasets/archive/data/full_dataset/goemotions_3.csv",
+      "table": "goemotions_3",
+      "rows": 71225,
+      "columns_count": 37,
+      "columns": [
+        {
+          "name": "text",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 43701
+        },
+        {
+          "name": "id",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 43884
+        },
+        {
+          "name": "author",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 38184
+        },
+        {
+          "name": "subreddit",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 483
+        },
+        {
+          "name": "link_id",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 35461
+        },
+        {
+          "name": "parent_id",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 41937
+        },
+        {
+          "name": "created_utc",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 43422
+        },
+        {
+          "name": "rater_id",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 81
+        },
+        {
+          "name": "example_very_unclear",
+          "dtype": "bool",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "admiration",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "amusement",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "anger",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "annoyance",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "approval",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "caring",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "confusion",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "curiosity",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "desire",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "disappointment",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "disapproval",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "disgust",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "embarrassment",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "excitement",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "fear",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "gratitude",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "grief",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "joy",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "love",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "nervousness",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "optimism",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "pride",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "realization",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "relief",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "remorse",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "sadness",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "surprise",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "neutral",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        }
+      ],
+      "duplicate_rows": 0,
+      "text_lengths": {
+        "text": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 69.06,
+          "median_characters": 66.0,
+          "p90_characters": 120.0,
+          "p99_characters": 151.0
+        }
+      },
+      "label_distributions": {
+        "example_very_unclear": {
+          "False": 70036,
+          "True": 1189
+        },
+        "admiration": {
+          "0": 65514,
+          "1": 5711
+        },
+        "amusement": {
+          "0": 68105,
+          "1": 3120
+        },
+        "anger": {
+          "0": 68492,
+          "1": 2733
+        },
+        "annoyance": {
+          "0": 66607,
+          "1": 4618
+        },
+        "approval": {
+          "0": 65318,
+          "1": 5907
+        },
+        "caring": {
+          "0": 69199,
+          "1": 2026
+        },
+        "confusion": {
+          "0": 68725,
+          "1": 2500
+        },
+        "curiosity": {
+          "0": 67990,
+          "1": 3235
+        },
+        "desire": {
+          "0": 69901,
+          "1": 1324
+        },
+        "disappointment": {
+          "0": 68421,
+          "1": 2804
+        },
+        "disapproval": {
+          "0": 67373,
+          "1": 3852
+        },
+        "disgust": {
+          "0": 69381,
+          "1": 1844
+        },
+        "embarrassment": {
+          "0": 70422,
+          "1": 803
+        },
+        "excitement": {
+          "0": 69375,
+          "1": 1850
+        },
+        "fear": {
+          "0": 70143,
+          "1": 1082
+        },
+        "gratitude": {
+          "0": 67304,
+          "1": 3921
+        },
+        "grief": {
+          "0": 70999,
+          "1": 226
+        },
+        "joy": {
+          "0": 68504,
+          "1": 2721
+        },
+        "love": {
+          "0": 68476,
+          "1": 2749
+        },
+        "nervousness": {
+          "0": 70594,
+          "1": 631
+        },
+        "optimism": {
+          "0": 68353,
+          "1": 2872
+        },
+        "pride": {
+          "0": 70804,
+          "1": 421
+        },
+        "realization": {
+          "0": 68224,
+          "1": 3001
+        },
+        "relief": {
+          "0": 70828,
+          "1": 397
+        },
+        "remorse": {
+          "0": 70388,
+          "1": 837
+        },
+        "sadness": {
+          "0": 68888,
+          "1": 2337
+        },
+        "surprise": {
+          "0": 69322,
+          "1": 1903
+        },
+        "neutral": {
+          "0": 52609,
+          "1": 18616
+        }
+      },
+      "safe_non_text_preview": {
+        "subreddit": [
+          "movies",
+          "danganronpa",
+          "medicine"
+        ],
+        "created_utc": [
+          1547847414.0,
+          1546327606.0,
+          1547463867.0
+        ],
+        "example_very_unclear": [
+          false,
+          false,
+          false
+        ],
+        "admiration": [
+          0,
+          0,
+          0
+        ],
+        "amusement": [
+          0,
+          0,
+          0
+        ],
+        "anger": [
+          0,
+          0,
+          0
+        ],
+        "annoyance": [
+          0,
+          0,
+          0
+        ],
+        "approval": [
+          0,
+          0,
+          0
+        ],
+        "caring": [
+          0,
+          0,
+          0
+        ],
+        "confusion": [
+          0,
+          0,
+          1
+        ],
+        "curiosity": [
+          0,
+          0,
+          0
+        ],
+        "desire": [
+          0,
+          0,
+          0
+        ],
+        "disappointment": [
+          1,
+          0,
+          0
+        ],
+        "disapproval": [
+          0,
+          0,
+          0
+        ],
+        "disgust": [
+          0,
+          0,
+          0
+        ],
+        "embarrassment": [
+          0,
+          0,
+          0
+        ],
+        "excitement": [
+          0,
+          1,
+          0
+        ],
+        "fear": [
+          0,
+          0,
+          0
+        ],
+        "gratitude": [
+          0,
+          0,
+          0
+        ],
+        "grief": [
+          0,
+          0,
+          0
+        ],
+        "joy": [
+          0,
+          0,
+          0
+        ],
+        "love": [
+          0,
+          0,
+          0
+        ],
+        "nervousness": [
+          0,
+          0,
+          0
+        ],
+        "optimism": [
+          0,
+          0,
+          0
+        ],
+        "realization": [
+          0,
+          0,
+          0
+        ],
+        "relief": [
+          0,
+          0,
+          0
+        ],
+        "remorse": [
+          0,
+          0,
+          0
+        ],
+        "sadness": [
+          0,
+          0,
+          0
+        ],
+        "surprise": [
+          0,
+          0,
+          0
+        ],
+        "neutral": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "source": "datasets/archive/data/test.tsv",
+      "table": "test",
+      "rows": 5427,
+      "columns_count": 3,
+      "columns": [
+        {
+          "name": "text",
+          "dtype": "string",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5421
+        },
+        {
+          "name": "emotion_ids",
+          "dtype": "string",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 275
+        },
+        {
+          "name": "comment_id",
+          "dtype": "string",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5427
+        }
+      ],
+      "duplicate_rows": 0,
+      "text_lengths": {
+        "text": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 67.82,
+          "median_characters": 65.0,
+          "p90_characters": 119.0,
+          "p99_characters": 148.0
+        },
+        "comment_id": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 7.0,
+          "median_characters": 7.0,
+          "p90_characters": 7.0,
+          "p99_characters": 7.0
+        }
+      },
+      "label_distributions": {},
+      "safe_non_text_preview": {}
+    },
+    {
+      "source": "datasets/archive/data/train.tsv",
+      "table": "train",
+      "rows": 43410,
+      "columns_count": 3,
+      "columns": [
+        {
+          "name": "text",
+          "dtype": "string",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 43227
+        },
+        {
+          "name": "emotion_ids",
+          "dtype": "string",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 711
+        },
+        {
+          "name": "comment_id",
+          "dtype": "string",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 43410
+        }
+      ],
+      "duplicate_rows": 0,
+      "text_lengths": {
+        "text": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 68.4,
+          "median_characters": 65.0,
+          "p90_characters": 120.0,
+          "p99_characters": 151.0
+        },
+        "comment_id": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 7.0,
+          "median_characters": 7.0,
+          "p90_characters": 7.0,
+          "p99_characters": 7.0
+        }
+      },
+      "label_distributions": {},
+      "safe_non_text_preview": {}
+    },
+    {
+      "source": "datasets/stress-detection-main/stress-detection-main/Reddit_Combi.xlsx",
+      "table": "Reddit_Combi",
+      "rows": 3123,
+      "columns_count": 4,
+      "columns": [
+        {
+          "name": "title",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 3098
+        },
+        {
+          "name": "body",
+          "dtype": "str",
+          "missing": 7,
+          "missing_percent": 0.224,
+          "unique_non_null": 3112
+        },
+        {
+          "name": "Body_Title",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 3123
+        },
+        {
+          "name": "label",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        }
+      ],
+      "duplicate_rows": 0,
+      "text_lengths": {
+        "title": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 53.62,
+          "median_characters": 43.0,
+          "p90_characters": 102.0,
+          "p99_characters": 216.78
+        },
+        "body": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 860.54,
+          "median_characters": 567.0,
+          "p90_characters": 1830.5,
+          "p99_characters": 5038.6
+        },
+        "Body_Title": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 913.23,
+          "median_characters": 615.0,
+          "p90_characters": 1882.6,
+          "p99_characters": 5069.24
+        }
+      },
+      "label_distributions": {
+        "label": {
+          "1": 2745,
+          "0": 378
+        }
+      },
+      "safe_non_text_preview": {
+        "label": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "source": "datasets/stress-detection-main/stress-detection-main/Reddit_Combi.xlsx",
+      "table": "Sheet1",
+      "rows": 0,
+      "columns_count": 0,
+      "columns": [],
+      "duplicate_rows": 0,
+      "text_lengths": {},
+      "label_distributions": {},
+      "safe_non_text_preview": {}
+    },
+    {
+      "source": "datasets/stress-detection-main/stress-detection-main/Reddit_Title.xlsx",
+      "table": "Reddit_Title",
+      "rows": 5556,
+      "columns_count": 2,
+      "columns": [
+        {
+          "name": "title",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 5522
+        },
+        {
+          "name": "label",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        }
+      ],
+      "duplicate_rows": 24,
+      "text_lengths": {
+        "title": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 93.22,
+          "median_characters": 74.0,
+          "p90_characters": 198.5,
+          "p99_characters": 297.0
+        }
+      },
+      "label_distributions": {
+        "label": {
+          "0": 2811,
+          "1": 2745
+        }
+      },
+      "safe_non_text_preview": {
+        "label": [
+          0,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "source": "datasets/stress-detection-main/stress-detection-main/Reddit_Title.xlsx",
+      "table": "Sheet1",
+      "rows": 0,
+      "columns_count": 0,
+      "columns": [],
+      "duplicate_rows": 0,
+      "text_lengths": {},
+      "label_distributions": {},
+      "safe_non_text_preview": {}
+    },
+    {
+      "source": "datasets/stress-detection-main/stress-detection-main/Twitter_Full.xlsx",
+      "table": "Twitter_Full",
+      "rows": 8900,
+      "columns_count": 3,
+      "columns": [
+        {
+          "name": "text",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 8439
+        },
+        {
+          "name": "hashtags",
+          "dtype": "str",
+          "missing": 8,
+          "missing_percent": 0.09,
+          "unique_non_null": 5570
+        },
+        {
+          "name": "labels",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        }
+      ],
+      "duplicate_rows": 375,
+      "text_lengths": {
+        "text": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 181.61,
+          "median_characters": 193.0,
+          "p90_characters": 266.0,
+          "p99_characters": 327.0
+        }
+      },
+      "label_distributions": {
+        "labels": {
+          "1": 4534,
+          "0": 4366
+        }
+      },
+      "safe_non_text_preview": {
+        "hashtags": [
+          "['momlife', 'kids', 'tired']",
+          "['walkthru']",
+          "['Peace', 'Joy', 'Love', 'JoyTrain', 'MentalHealth', 'Quote', 'Mindfulness', 'GoldenHearts', 'IAM', 'ChooseLove']"
+        ],
+        "labels": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "source": "datasets/stress-detection-main/stress-detection-main/Twitter_Full.xlsx",
+      "table": "Sheet1",
+      "rows": 0,
+      "columns_count": 0,
+      "columns": [],
+      "duplicate_rows": 0,
+      "text_lengths": {},
+      "label_distributions": {},
+      "safe_non_text_preview": {}
+    },
+    {
+      "source": "datasets/stress-detection-main/stress-detection-main/Twitter_Non-Advert.xlsx",
+      "table": "Twitter_ Non-Advert",
+      "rows": 2051,
+      "columns_count": 2,
+      "columns": [
+        {
+          "name": "text",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 1972
+        },
+        {
+          "name": "label",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        }
+      ],
+      "duplicate_rows": 79,
+      "text_lengths": {
+        "text": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 177.29,
+          "median_characters": 195.0,
+          "p90_characters": 260.0,
+          "p99_characters": 308.5
+        }
+      },
+      "label_distributions": {
+        "label": {
+          "1": 1268,
+          "0": 783
+        }
+      },
+      "safe_non_text_preview": {
+        "label": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "source": "datasets/stress-detection-main/stress-detection-main/Twitter_Non-Advert.xlsx",
+      "table": "Sheet1",
+      "rows": 0,
+      "columns_count": 0,
+      "columns": [],
+      "duplicate_rows": 0,
+      "text_lengths": {},
+      "label_distributions": {},
+      "safe_non_text_preview": {}
+    },
+    {
+      "source": "goemotions/plots/colors.tsv",
+      "table": "colors",
+      "rows": 48,
+      "columns_count": 3,
+      "columns": [
+        {
+          "name": "0",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 20
+        },
+        {
+          "name": "0.1",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 21
+        },
+        {
+          "name": "1.0000",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 21
+        }
+      ],
+      "duplicate_rows": 0,
+      "text_lengths": {},
+      "label_distributions": {},
+      "safe_non_text_preview": {
+        "0": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "0.1": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "1.0000": [
+          0.0,
+          0.0,
+          0.1724
+        ]
+      }
+    },
+    {
+      "source": "goemotions/tables/emotion_words.csv",
+      "table": "emotion_words",
+      "rows": 1178,
+      "columns_count": 4,
+      "columns": [
+        {
+          "name": "emotion",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 28
+        },
+        {
+          "name": "word",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 996
+        },
+        {
+          "name": "odds",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 456
+        },
+        {
+          "name": "freq",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 39
+        }
+      ],
+      "duplicate_rows": 0,
+      "text_lengths": {},
+      "label_distributions": {
+        "emotion": {
+          "neutral": 174,
+          "admiration": 138,
+          "approval": 92,
+          "annoyance": 82,
+          "gratitude": 74,
+          "amusement": 55,
+          "anger": 53,
+          "disapproval": 51,
+          "curiosity": 45,
+          "sadness": 40,
+          "love": 39,
+          "caring": 37,
+          "joy": 34,
+          "surprise": 34,
+          "confusion": 33,
+          "optimism": 33,
+          "excitement": 26,
+          "fear": 24,
+          "disgust": 23,
+          "disappointment": 22,
+          "realization": 22,
+          "embarrassment": 13,
+          "desire": 10,
+          "remorse": 9,
+          "nervousness": 6,
+          "relief": 4,
+          "pride": 3,
+          "grief": 2
+        }
+      },
+      "safe_non_text_preview": {
+        "emotion": [
+          "admiration",
+          "admiration",
+          "admiration"
+        ],
+        "word": [
+          "great",
+          "awesome",
+          "amazing"
+        ],
+        "odds": [
+          41.8,
+          31.18,
+          29.65
+        ],
+        "freq": [
+          0.014,
+          0.007,
+          0.006
+        ]
+      }
+    },
+    {
+      "source": "Hugging Face: andreagasparini/dreaddit",
+      "table": "train",
+      "rows": 2838,
+      "columns_count": 116,
+      "columns": [
+        {
+          "name": "subreddit",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 10
+        },
+        {
+          "name": "post_id",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2343
+        },
+        {
+          "name": "sentence_range",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 173
+        },
+        {
+          "name": "text",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2820
+        },
+        {
+          "name": "id",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2838
+        },
+        {
+          "name": "label",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "confidence",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 10
+        },
+        {
+          "name": "social_timestamp",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2343
+        },
+        {
+          "name": "social_karma",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 135
+        },
+        {
+          "name": "syntax_ari",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2659
+        },
+        {
+          "name": "lex_liwc_WC",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 198
+        },
+        {
+          "name": "lex_liwc_Analytic",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 1435
+        },
+        {
+          "name": "lex_liwc_Clout",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 1323
+        },
+        {
+          "name": "lex_liwc_Authentic",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 978
+        },
+        {
+          "name": "lex_liwc_Tone",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 489
+        },
+        {
+          "name": "lex_liwc_WPS",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 360
+        },
+        {
+          "name": "lex_liwc_Sixltr",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 938
+        },
+        {
+          "name": "lex_liwc_Dic",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 833
+        },
+        {
+          "name": "lex_liwc_function",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 1048
+        },
+        {
+          "name": "lex_liwc_pronoun",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 964
+        },
+        {
+          "name": "lex_liwc_ppron",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 889
+        },
+        {
+          "name": "lex_liwc_i",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 810
+        },
+        {
+          "name": "lex_liwc_we",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 293
+        },
+        {
+          "name": "lex_liwc_you",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 324
+        },
+        {
+          "name": "lex_liwc_shehe",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 548
+        },
+        {
+          "name": "lex_liwc_they",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 263
+        },
+        {
+          "name": "lex_liwc_ipron",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 644
+        },
+        {
+          "name": "lex_liwc_article",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 572
+        },
+        {
+          "name": "lex_liwc_prep",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 737
+        },
+        {
+          "name": "lex_liwc_auxverb",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 743
+        },
+        {
+          "name": "lex_liwc_adverb",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 655
+        },
+        {
+          "name": "lex_liwc_conj",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 612
+        },
+        {
+          "name": "lex_liwc_negate",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 398
+        },
+        {
+          "name": "lex_liwc_verb",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 890
+        },
+        {
+          "name": "lex_liwc_adj",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 562
+        },
+        {
+          "name": "lex_liwc_compare",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 424
+        },
+        {
+          "name": "lex_liwc_interrog",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 346
+        },
+        {
+          "name": "lex_liwc_number",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 355
+        },
+        {
+          "name": "lex_liwc_quant",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 394
+        },
+        {
+          "name": "lex_liwc_affect",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 692
+        },
+        {
+          "name": "lex_liwc_posemo",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 497
+        },
+        {
+          "name": "lex_liwc_negemo",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 555
+        },
+        {
+          "name": "lex_liwc_anx",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 298
+        },
+        {
+          "name": "lex_liwc_anger",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 293
+        },
+        {
+          "name": "lex_liwc_sad",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 236
+        },
+        {
+          "name": "lex_liwc_social",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 984
+        },
+        {
+          "name": "lex_liwc_family",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 291
+        },
+        {
+          "name": "lex_liwc_friend",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 236
+        },
+        {
+          "name": "lex_liwc_female",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 448
+        },
+        {
+          "name": "lex_liwc_male",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 494
+        },
+        {
+          "name": "lex_liwc_cogproc",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 929
+        },
+        {
+          "name": "lex_liwc_insight",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 461
+        },
+        {
+          "name": "lex_liwc_cause",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 369
+        },
+        {
+          "name": "lex_liwc_discrep",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 400
+        },
+        {
+          "name": "lex_liwc_tentat",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 521
+        },
+        {
+          "name": "lex_liwc_certain",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 342
+        },
+        {
+          "name": "lex_liwc_differ",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 531
+        },
+        {
+          "name": "lex_liwc_percept",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 433
+        },
+        {
+          "name": "lex_liwc_see",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 232
+        },
+        {
+          "name": "lex_liwc_hear",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 244
+        },
+        {
+          "name": "lex_liwc_feel",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 282
+        },
+        {
+          "name": "lex_liwc_bio",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 494
+        },
+        {
+          "name": "lex_liwc_body",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 275
+        },
+        {
+          "name": "lex_liwc_health",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 343
+        },
+        {
+          "name": "lex_liwc_sexual",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 161
+        },
+        {
+          "name": "lex_liwc_ingest",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 202
+        },
+        {
+          "name": "lex_liwc_drives",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 741
+        },
+        {
+          "name": "lex_liwc_affiliation",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 512
+        },
+        {
+          "name": "lex_liwc_achieve",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 331
+        },
+        {
+          "name": "lex_liwc_power",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 431
+        },
+        {
+          "name": "lex_liwc_reward",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 313
+        },
+        {
+          "name": "lex_liwc_risk",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 243
+        },
+        {
+          "name": "lex_liwc_focuspast",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 699
+        },
+        {
+          "name": "lex_liwc_focuspresent",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 945
+        },
+        {
+          "name": "lex_liwc_focusfuture",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 305
+        },
+        {
+          "name": "lex_liwc_relativ",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 965
+        },
+        {
+          "name": "lex_liwc_motion",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 377
+        },
+        {
+          "name": "lex_liwc_space",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 670
+        },
+        {
+          "name": "lex_liwc_time",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 721
+        },
+        {
+          "name": "lex_liwc_work",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 438
+        },
+        {
+          "name": "lex_liwc_leisure",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 278
+        },
+        {
+          "name": "lex_liwc_home",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 256
+        },
+        {
+          "name": "lex_liwc_money",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 309
+        },
+        {
+          "name": "lex_liwc_relig",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 117
+        },
+        {
+          "name": "lex_liwc_death",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 123
+        },
+        {
+          "name": "lex_liwc_informal",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 260
+        },
+        {
+          "name": "lex_liwc_swear",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 166
+        },
+        {
+          "name": "lex_liwc_netspeak",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 159
+        },
+        {
+          "name": "lex_liwc_assent",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 118
+        },
+        {
+          "name": "lex_liwc_nonflu",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 110
+        },
+        {
+          "name": "lex_liwc_filler",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 67
+        },
+        {
+          "name": "lex_liwc_AllPunc",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 990
+        },
+        {
+          "name": "lex_liwc_Period",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 512
+        },
+        {
+          "name": "lex_liwc_Comma",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 546
+        },
+        {
+          "name": "lex_liwc_Colon",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 132
+        },
+        {
+          "name": "lex_liwc_SemiC",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 106
+        },
+        {
+          "name": "lex_liwc_QMark",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 205
+        },
+        {
+          "name": "lex_liwc_Exclam",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 127
+        },
+        {
+          "name": "lex_liwc_Dash",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 221
+        },
+        {
+          "name": "lex_liwc_Quote",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 193
+        },
+        {
+          "name": "lex_liwc_Apostro",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 510
+        },
+        {
+          "name": "lex_liwc_Parenth",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 216
+        },
+        {
+          "name": "lex_liwc_OtherP",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 348
+        },
+        {
+          "name": "lex_dal_max_pleasantness",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 41
+        },
+        {
+          "name": "lex_dal_max_activation",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 54
+        },
+        {
+          "name": "lex_dal_max_imagery",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 6
+        },
+        {
+          "name": "lex_dal_min_pleasantness",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 33
+        },
+        {
+          "name": "lex_dal_min_activation",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 22
+        },
+        {
+          "name": "lex_dal_min_imagery",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "lex_dal_avg_activation",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2606
+        },
+        {
+          "name": "lex_dal_avg_imagery",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2111
+        },
+        {
+          "name": "lex_dal_avg_pleasantness",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2615
+        },
+        {
+          "name": "social_upvote_ratio",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 73
+        },
+        {
+          "name": "social_num_comments",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 94
+        },
+        {
+          "name": "syntax_fk_grade",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2417
+        },
+        {
+          "name": "sentiment",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 1809
+        }
+      ],
+      "duplicate_rows": 0,
+      "text_lengths": {
+        "post_id": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 6.0,
+          "median_characters": 6.0,
+          "p90_characters": 6.0,
+          "p99_characters": 6.0
+        },
+        "text": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 448.0,
+          "median_characters": 421.0,
+          "p90_characters": 660.3,
+          "p99_characters": 1004.52
+        },
+        "lex_liwc_body": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 3.29,
+          "median_characters": 3.0,
+          "p90_characters": 4.0,
+          "p99_characters": 4.0
+        },
+        "lex_liwc_Apostro": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 3.74,
+          "median_characters": 4.0,
+          "p90_characters": 4.0,
+          "p99_characters": 5.0
+        },
+        "social_num_comments": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 1.28,
+          "median_characters": 1.0,
+          "p90_characters": 2.0,
+          "p99_characters": 2.0
+        }
+      },
+      "label_distributions": {
+        "label": {
+          "1": 1488,
+          "0": 1350
+        }
+      },
+      "safe_non_text_preview": {
+        "subreddit": [
+          "ptsd",
+          "assistance",
+          "ptsd"
+        ],
+        "sentence_range": [
+          "(15, 20)",
+          "(0, 5)",
+          "(15, 20)"
+        ],
+        "label": [
+          1,
+          0,
+          1
+        ],
+        "social_timestamp": [
+          1521614353,
+          1527009817,
+          1535935605
+        ],
+        "social_karma": [
+          5,
+          4,
+          2
+        ],
+        "syntax_ari": [
+          1.806818182,
+          9.429736842,
+          7.769821429
+        ],
+        "lex_liwc_WC": [
+          116,
+          109,
+          167
+        ],
+        "lex_liwc_Analytic": [
+          72.64,
+          79.08,
+          33.8
+        ],
+        "lex_liwc_Clout": [
+          15.04,
+          76.85,
+          76.38
+        ],
+        "lex_liwc_Authentic": [
+          89.26,
+          56.75,
+          86.24
+        ],
+        "lex_liwc_Tone": [
+          1.0,
+          98.18,
+          25.77
+        ],
+        "lex_liwc_WPS": [
+          29.0,
+          27.25,
+          33.4
+        ],
+        "lex_liwc_Sixltr": [
+          12.93,
+          21.1,
+          17.37
+        ],
+        "lex_liwc_Dic": [
+          87.07,
+          87.16,
+          91.02
+        ],
+        "lex_liwc_function": [
+          56.03,
+          48.62,
+          61.68
+        ],
+        "lex_liwc_pronoun": [
+          16.38,
+          11.93,
+          25.15
+        ],
+        "lex_liwc_ppron": [
+          12.07,
+          7.34,
+          16.17
+        ],
+        "lex_liwc_i": [
+          9.48,
+          1.83,
+          8.98
+        ],
+        "lex_liwc_we": [
+          0.0,
+          2.75,
+          1.8
+        ],
+        "lex_liwc_you": [
+          0.86,
+          2.75,
+          1.8
+        ],
+        "lex_liwc_shehe": [
+          1.72,
+          0.0,
+          2.99
+        ],
+        "lex_liwc_they": [
+          0.0,
+          0.0,
+          0.6
+        ],
+        "lex_liwc_ipron": [
+          4.31,
+          4.59,
+          8.98
+        ],
+        "lex_liwc_article": [
+          3.45,
+          8.26,
+          5.39
+        ],
+        "lex_liwc_prep": [
+          19.83,
+          13.76,
+          12.57
+        ],
+        "lex_liwc_auxverb": [
+          7.76,
+          6.42,
+          10.18
+        ],
+        "lex_liwc_adverb": [
+          5.17,
+          3.67,
+          1.8
+        ],
+        "lex_liwc_conj": [
+          4.31,
+          8.26,
+          5.99
+        ],
+        "lex_liwc_negate": [
+          1.72,
+          0.92,
+          1.2
+        ],
+        "lex_liwc_verb": [
+          16.38,
+          15.6,
+          20.96
+        ],
+        "lex_liwc_adj": [
+          6.03,
+          2.75,
+          1.2
+        ],
+        "lex_liwc_compare": [
+          3.45,
+          0.92,
+          0.6
+        ],
+        "lex_liwc_interrog": [
+          0.86,
+          0.92,
+          0.6
+        ],
+        "lex_liwc_number": [
+          1.72,
+          2.75,
+          1.2
+        ],
+        "lex_liwc_quant": [
+          1.72,
+          0.92,
+          1.8
+        ],
+        "lex_liwc_affect": [
+          8.62,
+          5.5,
+          2.4
+        ],
+        "lex_liwc_posemo": [
+          1.72,
+          5.5,
+          1.2
+        ],
+        "lex_liwc_negemo": [
+          6.9,
+          0.0,
+          1.2
+        ],
+        "lex_liwc_anx": [
+          0.86,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_anger": [
+          2.59,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_sad": [
+          3.45,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_social": [
+          3.45,
+          11.01,
+          15.57
+        ],
+        "lex_liwc_family": [
+          0.0,
+          0.0,
+          0.6
+        ],
+        "lex_liwc_friend": [
+          0.0,
+          0.0,
+          3.59
+        ],
+        "lex_liwc_female": [
+          0.0,
+          0.0,
+          1.8
+        ],
+        "lex_liwc_male": [
+          1.72,
+          0.0,
+          2.4
+        ],
+        "lex_liwc_cogproc": [
+          11.21,
+          11.93,
+          10.18
+        ],
+        "lex_liwc_insight": [
+          3.45,
+          1.83,
+          4.19
+        ],
+        "lex_liwc_cause": [
+          0.86,
+          0.0,
+          1.2
+        ],
+        "lex_liwc_discrep": [
+          2.59,
+          3.67,
+          0.6
+        ],
+        "lex_liwc_tentat": [
+          5.17,
+          5.5,
+          2.99
+        ],
+        "lex_liwc_certain": [
+          0.0,
+          1.83,
+          0.0
+        ],
+        "lex_liwc_differ": [
+          2.59,
+          6.42,
+          1.8
+        ],
+        "lex_liwc_percept": [
+          6.03,
+          0.92,
+          0.0
+        ],
+        "lex_liwc_see": [
+          1.72,
+          0.92,
+          0.0
+        ],
+        "lex_liwc_hear": [
+          1.72,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_feel": [
+          1.72,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_bio": [
+          2.59,
+          0.0,
+          0.6
+        ],
+        "lex_liwc_health": [
+          1.72,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_sexual": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_ingest": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_drives": [
+          8.62,
+          15.6,
+          8.98
+        ],
+        "lex_liwc_affiliation": [
+          0.0,
+          5.5,
+          5.39
+        ],
+        "lex_liwc_achieve": [
+          1.72,
+          3.67,
+          0.6
+        ],
+        "lex_liwc_power": [
+          4.31,
+          7.34,
+          1.2
+        ],
+        "lex_liwc_reward": [
+          0.86,
+          2.75,
+          2.4
+        ],
+        "lex_liwc_risk": [
+          2.59,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_focuspast": [
+          4.31,
+          0.92,
+          3.59
+        ],
+        "lex_liwc_focuspresent": [
+          11.21,
+          13.76,
+          14.37
+        ],
+        "lex_liwc_focusfuture": [
+          0.86,
+          0.92,
+          1.8
+        ],
+        "lex_liwc_relativ": [
+          17.24,
+          15.6,
+          16.17
+        ],
+        "lex_liwc_motion": [
+          0.86,
+          2.75,
+          4.79
+        ],
+        "lex_liwc_space": [
+          10.34,
+          10.09,
+          5.99
+        ],
+        "lex_liwc_time": [
+          6.03,
+          1.83,
+          5.39
+        ],
+        "lex_liwc_work": [
+          0.86,
+          11.01,
+          0.0
+        ],
+        "lex_liwc_leisure": [
+          0.0,
+          0.0,
+          1.2
+        ],
+        "lex_liwc_home": [
+          0.0,
+          0.0,
+          0.6
+        ],
+        "lex_liwc_money": [
+          0.0,
+          0.92,
+          0.0
+        ],
+        "lex_liwc_relig": [
+          2.59,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_death": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_informal": [
+          0.86,
+          1.83,
+          0.0
+        ],
+        "lex_liwc_swear": [
+          0.86,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_netspeak": [
+          0.0,
+          0.92,
+          0.0
+        ],
+        "lex_liwc_assent": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_nonflu": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_filler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_AllPunc": [
+          21.55,
+          14.68,
+          10.78
+        ],
+        "lex_liwc_Period": [
+          9.48,
+          4.59,
+          2.4
+        ],
+        "lex_liwc_Comma": [
+          3.45,
+          2.75,
+          3.59
+        ],
+        "lex_liwc_Colon": [
+          0.86,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_SemiC": [
+          0.86,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_QMark": [
+          0.0,
+          0.0,
+          0.6
+        ],
+        "lex_liwc_Exclam": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_Dash": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_Quote": [
+          5.17,
+          0.0,
+          2.4
+        ],
+        "lex_liwc_Parenth": [
+          0.0,
+          0.92,
+          0.0
+        ],
+        "lex_liwc_OtherP": [
+          0.0,
+          3.67,
+          0.0
+        ],
+        "lex_dal_max_pleasantness": [
+          2.8571,
+          3.0,
+          2.7143
+        ],
+        "lex_dal_max_activation": [
+          2.625,
+          2.8889,
+          3.0
+        ],
+        "lex_dal_max_imagery": [
+          3.0,
+          3.0,
+          3.0
+        ],
+        "lex_dal_min_pleasantness": [
+          1.0,
+          1.125,
+          1.0
+        ],
+        "lex_dal_min_activation": [
+          1.125,
+          1.0,
+          1.1429
+        ],
+        "lex_dal_min_imagery": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "lex_dal_avg_activation": [
+          1.77,
+          1.69586,
+          1.83088
+        ],
+        "lex_dal_avg_imagery": [
+          1.52211,
+          1.62045,
+          1.58108
+        ],
+        "lex_dal_avg_pleasantness": [
+          1.89556,
+          1.88919,
+          1.85828
+        ],
+        "social_upvote_ratio": [
+          0.86,
+          0.65,
+          0.67
+        ],
+        "syntax_fk_grade": [
+          3.253572568,
+          8.828315789,
+          7.841666667
+        ],
+        "sentiment": [
+          -0.002741703,
+          0.292857143,
+          0.011893939
+        ]
+      }
+    },
+    {
+      "source": "Hugging Face: andreagasparini/dreaddit",
+      "table": "test",
+      "rows": 715,
+      "columns_count": 116,
+      "columns": [
+        {
+          "name": "subreddit",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 10
+        },
+        {
+          "name": "post_id",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 586
+        },
+        {
+          "name": "sentence_range",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 111
+        },
+        {
+          "name": "text",
+          "dtype": "str",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 715
+        },
+        {
+          "name": "id",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 715
+        },
+        {
+          "name": "label",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "confidence",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 10
+        },
+        {
+          "name": "social_timestamp",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 586
+        },
+        {
+          "name": "social_karma",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 74
+        },
+        {
+          "name": "syntax_ari",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 698
+        },
+        {
+          "name": "lex_liwc_WC",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 142
+        },
+        {
+          "name": "lex_liwc_Analytic",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 550
+        },
+        {
+          "name": "lex_liwc_Clout",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 500
+        },
+        {
+          "name": "lex_liwc_Authentic",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 396
+        },
+        {
+          "name": "lex_liwc_Tone",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 277
+        },
+        {
+          "name": "lex_liwc_WPS",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 211
+        },
+        {
+          "name": "lex_liwc_Sixltr",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 441
+        },
+        {
+          "name": "lex_liwc_Dic",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 421
+        },
+        {
+          "name": "lex_liwc_function",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 475
+        },
+        {
+          "name": "lex_liwc_pronoun",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 455
+        },
+        {
+          "name": "lex_liwc_ppron",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 428
+        },
+        {
+          "name": "lex_liwc_i",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 401
+        },
+        {
+          "name": "lex_liwc_we",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 141
+        },
+        {
+          "name": "lex_liwc_you",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 126
+        },
+        {
+          "name": "lex_liwc_shehe",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 250
+        },
+        {
+          "name": "lex_liwc_they",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 126
+        },
+        {
+          "name": "lex_liwc_ipron",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 354
+        },
+        {
+          "name": "lex_liwc_article",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 333
+        },
+        {
+          "name": "lex_liwc_prep",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 378
+        },
+        {
+          "name": "lex_liwc_auxverb",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 394
+        },
+        {
+          "name": "lex_liwc_adverb",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 364
+        },
+        {
+          "name": "lex_liwc_conj",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 337
+        },
+        {
+          "name": "lex_liwc_negate",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 234
+        },
+        {
+          "name": "lex_liwc_verb",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 426
+        },
+        {
+          "name": "lex_liwc_adj",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 329
+        },
+        {
+          "name": "lex_liwc_compare",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 259
+        },
+        {
+          "name": "lex_liwc_interrog",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 207
+        },
+        {
+          "name": "lex_liwc_number",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 206
+        },
+        {
+          "name": "lex_liwc_quant",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 249
+        },
+        {
+          "name": "lex_liwc_affect",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 363
+        },
+        {
+          "name": "lex_liwc_posemo",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 258
+        },
+        {
+          "name": "lex_liwc_negemo",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 294
+        },
+        {
+          "name": "lex_liwc_anx",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 180
+        },
+        {
+          "name": "lex_liwc_anger",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 166
+        },
+        {
+          "name": "lex_liwc_sad",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 128
+        },
+        {
+          "name": "lex_liwc_social",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 471
+        },
+        {
+          "name": "lex_liwc_family",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 129
+        },
+        {
+          "name": "lex_liwc_friend",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 131
+        },
+        {
+          "name": "lex_liwc_female",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 198
+        },
+        {
+          "name": "lex_liwc_male",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 210
+        },
+        {
+          "name": "lex_liwc_cogproc",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 436
+        },
+        {
+          "name": "lex_liwc_insight",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 272
+        },
+        {
+          "name": "lex_liwc_cause",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 217
+        },
+        {
+          "name": "lex_liwc_discrep",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 241
+        },
+        {
+          "name": "lex_liwc_tentat",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 310
+        },
+        {
+          "name": "lex_liwc_certain",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 212
+        },
+        {
+          "name": "lex_liwc_differ",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 322
+        },
+        {
+          "name": "lex_liwc_percept",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 252
+        },
+        {
+          "name": "lex_liwc_see",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 129
+        },
+        {
+          "name": "lex_liwc_hear",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 131
+        },
+        {
+          "name": "lex_liwc_feel",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 164
+        },
+        {
+          "name": "lex_liwc_bio",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 276
+        },
+        {
+          "name": "lex_liwc_body",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 147
+        },
+        {
+          "name": "lex_liwc_health",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 189
+        },
+        {
+          "name": "lex_liwc_sexual",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 69
+        },
+        {
+          "name": "lex_liwc_ingest",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 101
+        },
+        {
+          "name": "lex_liwc_drives",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 385
+        },
+        {
+          "name": "lex_liwc_affiliation",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 276
+        },
+        {
+          "name": "lex_liwc_achieve",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 203
+        },
+        {
+          "name": "lex_liwc_power",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 265
+        },
+        {
+          "name": "lex_liwc_reward",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 188
+        },
+        {
+          "name": "lex_liwc_risk",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 149
+        },
+        {
+          "name": "lex_liwc_focuspast",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 370
+        },
+        {
+          "name": "lex_liwc_focuspresent",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 460
+        },
+        {
+          "name": "lex_liwc_focusfuture",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 187
+        },
+        {
+          "name": "lex_liwc_relativ",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 440
+        },
+        {
+          "name": "lex_liwc_motion",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 234
+        },
+        {
+          "name": "lex_liwc_space",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 368
+        },
+        {
+          "name": "lex_liwc_time",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 373
+        },
+        {
+          "name": "lex_liwc_work",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 235
+        },
+        {
+          "name": "lex_liwc_leisure",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 151
+        },
+        {
+          "name": "lex_liwc_home",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 129
+        },
+        {
+          "name": "lex_liwc_money",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 133
+        },
+        {
+          "name": "lex_liwc_relig",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 49
+        },
+        {
+          "name": "lex_liwc_death",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 54
+        },
+        {
+          "name": "lex_liwc_informal",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 150
+        },
+        {
+          "name": "lex_liwc_swear",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 79
+        },
+        {
+          "name": "lex_liwc_netspeak",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 64
+        },
+        {
+          "name": "lex_liwc_assent",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 58
+        },
+        {
+          "name": "lex_liwc_nonflu",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 45
+        },
+        {
+          "name": "lex_liwc_filler",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 24
+        },
+        {
+          "name": "lex_liwc_AllPunc",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 458
+        },
+        {
+          "name": "lex_liwc_Period",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 289
+        },
+        {
+          "name": "lex_liwc_Comma",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 300
+        },
+        {
+          "name": "lex_liwc_Colon",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 58
+        },
+        {
+          "name": "lex_liwc_SemiC",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 40
+        },
+        {
+          "name": "lex_liwc_QMark",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 105
+        },
+        {
+          "name": "lex_liwc_Exclam",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 47
+        },
+        {
+          "name": "lex_liwc_Dash",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 100
+        },
+        {
+          "name": "lex_liwc_Quote",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 82
+        },
+        {
+          "name": "lex_liwc_Apostro",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 293
+        },
+        {
+          "name": "lex_liwc_Parenth",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 117
+        },
+        {
+          "name": "lex_liwc_OtherP",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 135
+        },
+        {
+          "name": "lex_dal_max_pleasantness",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 28
+        },
+        {
+          "name": "lex_dal_max_activation",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 39
+        },
+        {
+          "name": "lex_dal_max_imagery",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 6
+        },
+        {
+          "name": "lex_dal_min_pleasantness",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 22
+        },
+        {
+          "name": "lex_dal_min_activation",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 17
+        },
+        {
+          "name": "lex_dal_min_imagery",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 2
+        },
+        {
+          "name": "lex_dal_avg_activation",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 700
+        },
+        {
+          "name": "lex_dal_avg_imagery",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 644
+        },
+        {
+          "name": "lex_dal_avg_pleasantness",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 703
+        },
+        {
+          "name": "social_upvote_ratio",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 63
+        },
+        {
+          "name": "social_num_comments",
+          "dtype": "int64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 53
+        },
+        {
+          "name": "syntax_fk_grade",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 685
+        },
+        {
+          "name": "sentiment",
+          "dtype": "float64",
+          "missing": 0,
+          "missing_percent": 0.0,
+          "unique_non_null": 602
+        }
+      ],
+      "duplicate_rows": 0,
+      "text_lengths": {
+        "post_id": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 6.0,
+          "median_characters": 6.0,
+          "p90_characters": 6.0,
+          "p99_characters": 6.0
+        },
+        "text": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 446.37,
+          "median_characters": 424.0,
+          "p90_characters": 646.6,
+          "p99_characters": 908.44
+        },
+        "lex_liwc_body": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 3.29,
+          "median_characters": 3.0,
+          "p90_characters": 4.0,
+          "p99_characters": 4.0
+        },
+        "lex_liwc_Apostro": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 3.75,
+          "median_characters": 4.0,
+          "p90_characters": 4.0,
+          "p99_characters": 5.0
+        },
+        "social_num_comments": {
+          "empty_or_whitespace": 0,
+          "mean_characters": 1.28,
+          "median_characters": 1.0,
+          "p90_characters": 2.0,
+          "p99_characters": 2.0
+        }
+      },
+      "label_distributions": {
+        "label": {
+          "1": 369,
+          "0": 346
+        }
+      },
+      "safe_non_text_preview": {
+        "subreddit": [
+          "relationships",
+          "anxiety",
+          "ptsd"
+        ],
+        "sentence_range": [
+          "[50, 55]",
+          "(5, 10)",
+          "(5, 10)"
+        ],
+        "label": [
+          0,
+          0,
+          1
+        ],
+        "social_timestamp": [
+          1514980773,
+          1493348050,
+          1524516630
+        ],
+        "social_karma": [
+          22,
+          5,
+          10
+        ],
+        "syntax_ari": [
+          -1.238793103448273,
+          7.684583333333332,
+          2.360408388520973
+        ],
+        "lex_liwc_WC": [
+          55,
+          72,
+          148
+        ],
+        "lex_liwc_Analytic": [
+          2.82,
+          64.56,
+          14.79
+        ],
+        "lex_liwc_Clout": [
+          57.22,
+          50.0,
+          75.05
+        ],
+        "lex_liwc_Authentic": [
+          55.41,
+          31.19,
+          62.88
+        ],
+        "lex_liwc_Tone": [
+          5.95,
+          92.4,
+          16.15
+        ],
+        "lex_liwc_WPS": [
+          11.0,
+          14.4,
+          21.14
+        ],
+        "lex_liwc_Sixltr": [
+          7.27,
+          25.0,
+          10.81
+        ],
+        "lex_liwc_Dic": [
+          94.55,
+          84.72,
+          94.59
+        ],
+        "lex_liwc_function": [
+          67.27,
+          44.44,
+          59.46
+        ],
+        "lex_liwc_pronoun": [
+          29.09,
+          9.72,
+          23.65
+        ],
+        "lex_liwc_ppron": [
+          18.18,
+          8.33,
+          14.19
+        ],
+        "lex_liwc_i": [
+          5.45,
+          6.94,
+          6.08
+        ],
+        "lex_liwc_we": [
+          0.0,
+          1.39,
+          2.03
+        ],
+        "lex_liwc_you": [
+          9.09,
+          0.0,
+          0.68
+        ],
+        "lex_liwc_shehe": [
+          3.64,
+          0.0,
+          2.7
+        ],
+        "lex_liwc_they": [
+          0.0,
+          0.0,
+          2.7
+        ],
+        "lex_liwc_ipron": [
+          10.91,
+          1.39,
+          9.46
+        ],
+        "lex_liwc_article": [
+          0.0,
+          5.56,
+          2.7
+        ],
+        "lex_liwc_prep": [
+          12.73,
+          11.11,
+          12.16
+        ],
+        "lex_liwc_auxverb": [
+          7.27,
+          8.33,
+          10.14
+        ],
+        "lex_liwc_adverb": [
+          1.82,
+          5.56,
+          6.08
+        ],
+        "lex_liwc_conj": [
+          14.55,
+          8.33,
+          9.46
+        ],
+        "lex_liwc_negate": [
+          7.27,
+          0.0,
+          0.68
+        ],
+        "lex_liwc_verb": [
+          18.18,
+          13.89,
+          20.27
+        ],
+        "lex_liwc_adj": [
+          1.82,
+          1.39,
+          4.73
+        ],
+        "lex_liwc_compare": [
+          3.64,
+          0.0,
+          2.7
+        ],
+        "lex_liwc_interrog": [
+          1.82,
+          2.78,
+          0.68
+        ],
+        "lex_liwc_number": [
+          5.45,
+          2.78,
+          1.35
+        ],
+        "lex_liwc_quant": [
+          0.0,
+          1.39,
+          2.03
+        ],
+        "lex_liwc_affect": [
+          1.82,
+          4.17,
+          3.38
+        ],
+        "lex_liwc_posemo": [
+          0.0,
+          4.17,
+          1.35
+        ],
+        "lex_liwc_negemo": [
+          1.82,
+          0.0,
+          2.03
+        ],
+        "lex_liwc_anx": [
+          0.0,
+          0.0,
+          0.68
+        ],
+        "lex_liwc_anger": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_sad": [
+          0.0,
+          0.0,
+          1.35
+        ],
+        "lex_liwc_social": [
+          20.0,
+          6.94,
+          14.86
+        ],
+        "lex_liwc_family": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_friend": [
+          1.82,
+          0.0,
+          0.68
+        ],
+        "lex_liwc_female": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_male": [
+          3.64,
+          1.39,
+          2.7
+        ],
+        "lex_liwc_cogproc": [
+          20.0,
+          9.72,
+          9.46
+        ],
+        "lex_liwc_insight": [
+          0.0,
+          4.17,
+          2.03
+        ],
+        "lex_liwc_cause": [
+          0.0,
+          1.39,
+          0.0
+        ],
+        "lex_liwc_discrep": [
+          7.27,
+          1.39,
+          3.38
+        ],
+        "lex_liwc_tentat": [
+          7.27,
+          2.78,
+          3.38
+        ],
+        "lex_liwc_certain": [
+          0.0,
+          0.0,
+          0.68
+        ],
+        "lex_liwc_differ": [
+          14.55,
+          1.39,
+          4.05
+        ],
+        "lex_liwc_percept": [
+          0.0,
+          0.0,
+          0.68
+        ],
+        "lex_liwc_see": [
+          0.0,
+          0.0,
+          0.68
+        ],
+        "lex_liwc_hear": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_feel": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_bio": [
+          0.0,
+          0.0,
+          2.7
+        ],
+        "lex_liwc_health": [
+          0.0,
+          0.0,
+          2.7
+        ],
+        "lex_liwc_sexual": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_ingest": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_drives": [
+          7.27,
+          11.11,
+          5.41
+        ],
+        "lex_liwc_affiliation": [
+          3.64,
+          2.78,
+          2.7
+        ],
+        "lex_liwc_achieve": [
+          0.0,
+          2.78,
+          0.0
+        ],
+        "lex_liwc_power": [
+          1.82,
+          2.78,
+          1.35
+        ],
+        "lex_liwc_reward": [
+          1.82,
+          4.17,
+          1.35
+        ],
+        "lex_liwc_risk": [
+          1.82,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_focuspast": [
+          5.45,
+          1.39,
+          6.08
+        ],
+        "lex_liwc_focuspresent": [
+          10.91,
+          13.89,
+          12.16
+        ],
+        "lex_liwc_focusfuture": [
+          3.64,
+          1.39,
+          1.35
+        ],
+        "lex_liwc_relativ": [
+          12.73,
+          6.94,
+          16.89
+        ],
+        "lex_liwc_motion": [
+          0.0,
+          1.39,
+          2.03
+        ],
+        "lex_liwc_space": [
+          1.82,
+          4.17,
+          8.11
+        ],
+        "lex_liwc_time": [
+          10.91,
+          1.39,
+          6.76
+        ],
+        "lex_liwc_work": [
+          0.0,
+          22.22,
+          0.68
+        ],
+        "lex_liwc_leisure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_home": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_money": [
+          0.0,
+          4.17,
+          2.03
+        ],
+        "lex_liwc_relig": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_death": [
+          0.0,
+          0.0,
+          0.68
+        ],
+        "lex_liwc_informal": [
+          0.0,
+          0.0,
+          2.7
+        ],
+        "lex_liwc_swear": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_netspeak": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_assent": [
+          0.0,
+          0.0,
+          0.68
+        ],
+        "lex_liwc_nonflu": [
+          0.0,
+          0.0,
+          0.68
+        ],
+        "lex_liwc_filler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_AllPunc": [
+          23.64,
+          15.28,
+          17.57
+        ],
+        "lex_liwc_Period": [
+          12.73,
+          6.94,
+          16.22
+        ],
+        "lex_liwc_Comma": [
+          5.45,
+          4.17,
+          0.0
+        ],
+        "lex_liwc_Colon": [
+          1.82,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_SemiC": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_QMark": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_Exclam": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_Dash": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_Quote": [
+          1.82,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_Parenth": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "lex_liwc_OtherP": [
+          0.0,
+          4.17,
+          0.0
+        ],
+        "lex_dal_max_pleasantness": [
+          2.7143,
+          2.4444,
+          2.8333
+        ],
+        "lex_dal_max_activation": [
+          2.8889,
+          2.8889,
+          2.9091
+        ],
+        "lex_dal_max_imagery": [
+          2.6,
+          3.0,
+          3.0
+        ],
+        "lex_dal_min_pleasantness": [
+          1.0,
+          1.4,
+          1.1429
+        ],
+        "lex_dal_min_activation": [
+          1.2,
+          1.125,
+          1.0
+        ],
+        "lex_dal_min_imagery": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "lex_dal_avg_activation": [
+          1.65864,
+          1.69133,
+          1.70974
+        ],
+        "lex_dal_avg_imagery": [
+          1.32245,
+          1.6918,
+          1.52985
+        ],
+        "lex_dal_avg_pleasantness": [
+          1.80264,
+          1.97249,
+          1.86108
+        ],
+        "social_upvote_ratio": [
+          0.63,
+          1.0,
+          1.0
+        ],
+        "syntax_fk_grade": [
+          -0.1487068965517224,
+          7.398222222222223,
+          3.1492880794702
+        ],
+        "sentiment": [
+          0.0,
+          -0.0659090909090909,
+          -0.0368181818181818
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

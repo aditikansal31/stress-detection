@@ -1,0 +1,1724 @@
+[
+  {
+    "source": "datasets/Stress Indicators Dataset for Mental Health Classi/Stress Indicators Dataset for Mental Health Classi/Stress Indicators Dataset for Mental Health Classification.csv",
+    "table": "StressIndicators_Mendeley",
+    "rows": 2000,
+    "columns": [
+      "gender",
+      "age",
+      "stress_experience",
+      "heartbeat_palpitations",
+      "anxiety_tension",
+      "sleep_problems",
+      "restlessness",
+      "headaches",
+      "irritability",
+      "concentration_problems",
+      "sadness_low_mood",
+      "health_issues",
+      "loneliness_isolation",
+      "academic_overload",
+      "peer_competition",
+      "relationship_stress",
+      "professor_difficulties",
+      "work_environment",
+      "lack_relaxation_time",
+      "home_environment",
+      "low_academic_confidence",
+      "subject_confidence",
+      "academic_conflicts",
+      "class_attendance",
+      "weight_changes",
+      "stress_type"
+    ],
+    "column_count": 26,
+    "missing_values": {
+      "gender": 0,
+      "age": 0,
+      "stress_experience": 0,
+      "heartbeat_palpitations": 0,
+      "anxiety_tension": 0,
+      "sleep_problems": 0,
+      "restlessness": 0,
+      "headaches": 0,
+      "irritability": 0,
+      "concentration_problems": 0,
+      "sadness_low_mood": 0,
+      "health_issues": 0,
+      "loneliness_isolation": 0,
+      "academic_overload": 0,
+      "peer_competition": 0,
+      "relationship_stress": 0,
+      "professor_difficulties": 0,
+      "work_environment": 0,
+      "lack_relaxation_time": 0,
+      "home_environment": 0,
+      "low_academic_confidence": 0,
+      "subject_confidence": 0,
+      "academic_conflicts": 0,
+      "class_attendance": 0,
+      "weight_changes": 0,
+      "stress_type": 0
+    },
+    "duplicate_rows": 1191,
+    "category_counts:gender": {
+      "0": 1292,
+      "1": 708
+    },
+    "category_counts:age": {
+      "19": 671,
+      "20": 545,
+      "21": 309,
+      "18": 256,
+      "22": 68,
+      "17": 62,
+      "15": 15,
+      "28": 14,
+      "24": 13,
+      "14": 11,
+      "41": 8,
+      "36": 8,
+      "37": 8,
+      "32": 7,
+      "100": 5
+    },
+    "category_counts:stress_experience": {
+      "3": 631,
+      "2": 531,
+      "4": 447,
+      "5": 204,
+      "1": 187
+    },
+    "category_counts:heartbeat_palpitations": {
+      "2": 678,
+      "3": 529,
+      "4": 425,
+      "1": 251,
+      "5": 117
+    },
+    "category_counts:anxiety_tension": {
+      "2": 581,
+      "3": 504,
+      "1": 470,
+      "4": 305,
+      "5": 140
+    },
+    "category_counts:sleep_problems": {
+      "2": 527,
+      "3": 509,
+      "1": 374,
+      "4": 371,
+      "5": 219
+    },
+    "category_counts:restlessness": {
+      "2": 580,
+      "1": 439,
+      "3": 408,
+      "4": 367,
+      "5": 206
+    },
+    "category_counts:headaches": {
+      "2": 554,
+      "3": 493,
+      "1": 453,
+      "4": 306,
+      "5": 194
+    },
+    "category_counts:irritability": {
+      "1": 486,
+      "3": 483,
+      "2": 444,
+      "4": 355,
+      "5": 232
+    },
+    "category_counts:concentration_problems": {
+      "3": 490,
+      "2": 477,
+      "1": 469,
+      "4": 323,
+      "5": 241
+    },
+    "category_counts:sadness_low_mood": {
+      "2": 609,
+      "3": 490,
+      "1": 435,
+      "4": 289,
+      "5": 177
+    },
+    "category_counts:health_issues": {
+      "3": 562,
+      "1": 525,
+      "2": 484,
+      "4": 263,
+      "5": 166
+    },
+    "category_counts:loneliness_isolation": {
+      "1": 554,
+      "2": 533,
+      "3": 460,
+      "4": 294,
+      "5": 159
+    },
+    "category_counts:academic_overload": {
+      "1": 561,
+      "3": 527,
+      "2": 471,
+      "4": 295,
+      "5": 146
+    },
+    "category_counts:peer_competition": {
+      "2": 633,
+      "1": 494,
+      "3": 476,
+      "4": 226,
+      "5": 171
+    },
+    "category_counts:relationship_stress": {
+      "2": 536,
+      "1": 528,
+      "3": 523,
+      "4": 239,
+      "5": 174
+    },
+    "category_counts:professor_difficulties": {
+      "2": 602,
+      "3": 530,
+      "1": 506,
+      "4": 204,
+      "5": 158
+    },
+    "category_counts:work_environment": {
+      "2": 592,
+      "3": 521,
+      "1": 490,
+      "4": 251,
+      "5": 146
+    },
+    "category_counts:lack_relaxation_time": {
+      "2": 538,
+      "1": 517,
+      "3": 516,
+      "4": 250,
+      "5": 179
+    },
+    "category_counts:home_environment": {
+      "2": 598,
+      "1": 572,
+      "3": 423,
+      "4": 235,
+      "5": 172
+    },
+    "category_counts:low_academic_confidence": {
+      "3": 529,
+      "1": 522,
+      "2": 489,
+      "4": 251,
+      "5": 209
+    },
+    "category_counts:subject_confidence": {
+      "2": 523,
+      "3": 500,
+      "1": 483,
+      "4": 268,
+      "5": 226
+    },
+    "category_counts:academic_conflicts": {
+      "2": 564,
+      "3": 476,
+      "1": 379,
+      "4": 359,
+      "5": 222
+    },
+    "category_counts:class_attendance": {
+      "4": 596,
+      "3": 562,
+      "5": 321,
+      "2": 314,
+      "1": 207
+    },
+    "category_counts:weight_changes": {
+      "2": 711,
+      "3": 499,
+      "1": 463,
+      "4": 224,
+      "5": 103
+    },
+    "category_counts:stress_type": {
+      "1": 1828,
+      "2": 102,
+      "0": 70
+    },
+    "label_distribution": {
+      "1": 1828,
+      "2": 102,
+      "0": 70
+    }
+  },
+  {
+    "source": "datasets/archive/data/train.tsv",
+    "table": "train.tsv",
+    "rows": 43410,
+    "columns": [
+      "text",
+      "emotion_ids",
+      "comment_id"
+    ],
+    "column_count": 3,
+    "missing_values": {
+      "text": 0,
+      "emotion_ids": 0,
+      "comment_id": 0
+    },
+    "duplicate_rows": 0,
+    "text_length_summary": {
+      "min": 2,
+      "p25": 38.0,
+      "median": 65.0,
+      "p75": 96.0,
+      "p90": 120.0,
+      "max": 703,
+      "mean": 68.40087537433772
+    }
+  },
+  {
+    "source": "datasets/archive/data/test.tsv",
+    "table": "test.tsv",
+    "rows": 5427,
+    "columns": [
+      "text",
+      "emotion_ids",
+      "comment_id"
+    ],
+    "column_count": 3,
+    "missing_values": {
+      "text": 0,
+      "emotion_ids": 0,
+      "comment_id": 0
+    },
+    "duplicate_rows": 0,
+    "text_length_summary": {
+      "min": 5,
+      "p25": 37.0,
+      "median": 65.0,
+      "p75": 95.0,
+      "p90": 119.0,
+      "max": 184,
+      "mean": 67.82476506357104
+    }
+  },
+  {
+    "source": "datasets/archive/data/dev.tsv",
+    "table": "dev.tsv",
+    "rows": 5426,
+    "columns": [
+      "text",
+      "emotion_ids",
+      "comment_id"
+    ],
+    "column_count": 3,
+    "missing_values": {
+      "text": 0,
+      "emotion_ids": 0,
+      "comment_id": 0
+    },
+    "duplicate_rows": 0,
+    "text_length_summary": {
+      "min": 5,
+      "p25": 37.0,
+      "median": 64.0,
+      "p75": 96.0,
+      "p90": 121.0,
+      "max": 187,
+      "mean": 68.24382602285293
+    }
+  },
+  {
+    "source": "datasets/archive/data/full_dataset/goemotions_1.csv",
+    "table": "goemotions_1.csv",
+    "rows": 70000,
+    "columns": [
+      "text",
+      "id",
+      "author",
+      "subreddit",
+      "link_id",
+      "parent_id",
+      "created_utc",
+      "rater_id",
+      "example_very_unclear",
+      "admiration",
+      "amusement",
+      "anger",
+      "annoyance",
+      "approval",
+      "caring",
+      "confusion",
+      "curiosity",
+      "desire",
+      "disappointment",
+      "disapproval",
+      "disgust",
+      "embarrassment",
+      "excitement",
+      "fear",
+      "gratitude",
+      "grief",
+      "joy",
+      "love",
+      "nervousness",
+      "optimism",
+      "pride",
+      "realization",
+      "relief",
+      "remorse",
+      "sadness",
+      "surprise",
+      "neutral"
+    ],
+    "column_count": 37,
+    "missing_values": {
+      "text": 0,
+      "id": 0,
+      "author": 0,
+      "subreddit": 0,
+      "link_id": 0,
+      "parent_id": 0,
+      "created_utc": 0,
+      "rater_id": 0,
+      "example_very_unclear": 0,
+      "admiration": 0,
+      "amusement": 0,
+      "anger": 0,
+      "annoyance": 0,
+      "approval": 0,
+      "caring": 0,
+      "confusion": 0,
+      "curiosity": 0,
+      "desire": 0,
+      "disappointment": 0,
+      "disapproval": 0,
+      "disgust": 0,
+      "embarrassment": 0,
+      "excitement": 0,
+      "fear": 0,
+      "gratitude": 0,
+      "grief": 0,
+      "joy": 0,
+      "love": 0,
+      "nervousness": 0,
+      "optimism": 0,
+      "pride": 0,
+      "realization": 0,
+      "relief": 0,
+      "remorse": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "neutral": 0
+    },
+    "duplicate_rows": 0,
+    "text_length_summary": {
+      "min": 3,
+      "p25": 39.0,
+      "median": 67.0,
+      "p75": 97.0,
+      "p90": 120.0,
+      "max": 703,
+      "mean": 69.42075714285714
+    },
+    "category_counts:example_very_unclear": {
+      "false": 68871,
+      "true": 1129
+    },
+    "category_counts:admiration": {
+      "0": 64353,
+      "1": 5647
+    },
+    "category_counts:amusement": {
+      "0": 66919,
+      "1": 3081
+    },
+    "category_counts:anger": {
+      "0": 67411,
+      "1": 2589
+    },
+    "category_counts:annoyance": {
+      "0": 65557,
+      "1": 4443
+    },
+    "category_counts:approval": {
+      "0": 64072,
+      "1": 5928
+    },
+    "category_counts:caring": {
+      "0": 68012,
+      "1": 1988
+    },
+    "category_counts:confusion": {
+      "0": 67529,
+      "1": 2471
+    },
+    "category_counts:curiosity": {
+      "0": 66733,
+      "1": 3267
+    },
+    "category_counts:desire": {
+      "0": 68752,
+      "1": 1248
+    },
+    "category_counts:disappointment": {
+      "0": 67229,
+      "1": 2771
+    },
+    "category_counts:disapproval": {
+      "0": 66226,
+      "1": 3774
+    },
+    "category_counts:disgust": {
+      "0": 68296,
+      "1": 1704
+    },
+    "category_counts:embarrassment": {
+      "0": 69183,
+      "1": 817
+    },
+    "category_counts:excitement": {
+      "0": 68100,
+      "1": 1900
+    },
+    "category_counts:fear": {
+      "0": 68952,
+      "1": 1048
+    },
+    "category_counts:gratitude": {
+      "0": 66137,
+      "1": 3863
+    },
+    "category_counts:grief": {
+      "0": 69773,
+      "1": 227
+    },
+    "category_counts:joy": {
+      "0": 67393,
+      "1": 2607
+    },
+    "category_counts:love": {
+      "0": 67255,
+      "1": 2745
+    },
+    "category_counts:nervousness": {
+      "0": 69402,
+      "1": 598
+    },
+    "category_counts:optimism": {
+      "0": 67113,
+      "1": 2887
+    },
+    "category_counts:pride": {
+      "0": 69548,
+      "1": 452
+    },
+    "category_counts:realization": {
+      "0": 67133,
+      "1": 2867
+    },
+    "category_counts:relief": {
+      "0": 69548,
+      "1": 452
+    },
+    "category_counts:remorse": {
+      "0": 69151,
+      "1": 849
+    },
+    "category_counts:sadness": {
+      "0": 67807,
+      "1": 2193
+    },
+    "category_counts:surprise": {
+      "0": 68194,
+      "1": 1806
+    },
+    "category_counts:neutral": {
+      "0": 51577,
+      "1": 18423
+    }
+  },
+  {
+    "source": "datasets/archive/data/full_dataset/goemotions_2.csv",
+    "table": "goemotions_2.csv",
+    "rows": 70000,
+    "columns": [
+      "text",
+      "id",
+      "author",
+      "subreddit",
+      "link_id",
+      "parent_id",
+      "created_utc",
+      "rater_id",
+      "example_very_unclear",
+      "admiration",
+      "amusement",
+      "anger",
+      "annoyance",
+      "approval",
+      "caring",
+      "confusion",
+      "curiosity",
+      "desire",
+      "disappointment",
+      "disapproval",
+      "disgust",
+      "embarrassment",
+      "excitement",
+      "fear",
+      "gratitude",
+      "grief",
+      "joy",
+      "love",
+      "nervousness",
+      "optimism",
+      "pride",
+      "realization",
+      "relief",
+      "remorse",
+      "sadness",
+      "surprise",
+      "neutral"
+    ],
+    "column_count": 37,
+    "missing_values": {
+      "text": 0,
+      "id": 0,
+      "author": 0,
+      "subreddit": 0,
+      "link_id": 0,
+      "parent_id": 0,
+      "created_utc": 0,
+      "rater_id": 0,
+      "example_very_unclear": 0,
+      "admiration": 0,
+      "amusement": 0,
+      "anger": 0,
+      "annoyance": 0,
+      "approval": 0,
+      "caring": 0,
+      "confusion": 0,
+      "curiosity": 0,
+      "desire": 0,
+      "disappointment": 0,
+      "disapproval": 0,
+      "disgust": 0,
+      "embarrassment": 0,
+      "excitement": 0,
+      "fear": 0,
+      "gratitude": 0,
+      "grief": 0,
+      "joy": 0,
+      "love": 0,
+      "nervousness": 0,
+      "optimism": 0,
+      "pride": 0,
+      "realization": 0,
+      "relief": 0,
+      "remorse": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "neutral": 0
+    },
+    "duplicate_rows": 0,
+    "text_length_summary": {
+      "min": 2,
+      "p25": 39.0,
+      "median": 67.0,
+      "p75": 97.0,
+      "p90": 121.0,
+      "max": 703,
+      "mean": 69.42694285714286
+    },
+    "category_counts:example_very_unclear": {
+      "false": 68907,
+      "true": 1093
+    },
+    "category_counts:admiration": {
+      "0": 64227,
+      "1": 5773
+    },
+    "category_counts:amusement": {
+      "0": 66956,
+      "1": 3044
+    },
+    "category_counts:anger": {
+      "0": 67238,
+      "1": 2762
+    },
+    "category_counts:annoyance": {
+      "0": 65443,
+      "1": 4557
+    },
+    "category_counts:approval": {
+      "0": 64215,
+      "1": 5785
+    },
+    "category_counts:caring": {
+      "0": 68015,
+      "1": 1985
+    },
+    "category_counts:confusion": {
+      "0": 67612,
+      "1": 2388
+    },
+    "category_counts:curiosity": {
+      "0": 66810,
+      "1": 3190
+    },
+    "category_counts:desire": {
+      "0": 68755,
+      "1": 1245
+    },
+    "category_counts:disappointment": {
+      "0": 67106,
+      "1": 2894
+    },
+    "category_counts:disapproval": {
+      "0": 66202,
+      "1": 3798
+    },
+    "category_counts:disgust": {
+      "0": 68247,
+      "1": 1753
+    },
+    "category_counts:embarrassment": {
+      "0": 69144,
+      "1": 856
+    },
+    "category_counts:excitement": {
+      "0": 68121,
+      "1": 1879
+    },
+    "category_counts:fear": {
+      "0": 68933,
+      "1": 1067
+    },
+    "category_counts:gratitude": {
+      "0": 66159,
+      "1": 3841
+    },
+    "category_counts:grief": {
+      "0": 69780,
+      "1": 220
+    },
+    "category_counts:joy": {
+      "0": 67345,
+      "1": 2655
+    },
+    "category_counts:love": {
+      "0": 67303,
+      "1": 2697
+    },
+    "category_counts:nervousness": {
+      "0": 69419,
+      "1": 581
+    },
+    "category_counts:optimism": {
+      "0": 67044,
+      "1": 2956
+    },
+    "category_counts:pride": {
+      "0": 69571,
+      "1": 429
+    },
+    "category_counts:realization": {
+      "0": 67083,
+      "1": 2917
+    },
+    "category_counts:relief": {
+      "0": 69560,
+      "1": 440
+    },
+    "category_counts:remorse": {
+      "0": 69161,
+      "1": 839
+    },
+    "category_counts:sadness": {
+      "0": 67772,
+      "1": 2228
+    },
+    "category_counts:surprise": {
+      "0": 68195,
+      "1": 1805
+    },
+    "category_counts:neutral": {
+      "0": 51741,
+      "1": 18259
+    }
+  },
+  {
+    "source": "datasets/archive/data/full_dataset/goemotions_3.csv",
+    "table": "goemotions_3.csv",
+    "rows": 71225,
+    "columns": [
+      "text",
+      "id",
+      "author",
+      "subreddit",
+      "link_id",
+      "parent_id",
+      "created_utc",
+      "rater_id",
+      "example_very_unclear",
+      "admiration",
+      "amusement",
+      "anger",
+      "annoyance",
+      "approval",
+      "caring",
+      "confusion",
+      "curiosity",
+      "desire",
+      "disappointment",
+      "disapproval",
+      "disgust",
+      "embarrassment",
+      "excitement",
+      "fear",
+      "gratitude",
+      "grief",
+      "joy",
+      "love",
+      "nervousness",
+      "optimism",
+      "pride",
+      "realization",
+      "relief",
+      "remorse",
+      "sadness",
+      "surprise",
+      "neutral"
+    ],
+    "column_count": 37,
+    "missing_values": {
+      "text": 0,
+      "id": 0,
+      "author": 0,
+      "subreddit": 0,
+      "link_id": 0,
+      "parent_id": 0,
+      "created_utc": 0,
+      "rater_id": 0,
+      "example_very_unclear": 0,
+      "admiration": 0,
+      "amusement": 0,
+      "anger": 0,
+      "annoyance": 0,
+      "approval": 0,
+      "caring": 0,
+      "confusion": 0,
+      "curiosity": 0,
+      "desire": 0,
+      "disappointment": 0,
+      "disapproval": 0,
+      "disgust": 0,
+      "embarrassment": 0,
+      "excitement": 0,
+      "fear": 0,
+      "gratitude": 0,
+      "grief": 0,
+      "joy": 0,
+      "love": 0,
+      "nervousness": 0,
+      "optimism": 0,
+      "pride": 0,
+      "realization": 0,
+      "relief": 0,
+      "remorse": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "neutral": 0
+    },
+    "duplicate_rows": 0,
+    "text_length_summary": {
+      "min": 2,
+      "p25": 39.0,
+      "median": 66.0,
+      "p75": 96.0,
+      "p90": 120.0,
+      "max": 703,
+      "mean": 69.05528957528958
+    },
+    "category_counts:example_very_unclear": {
+      "false": 70036,
+      "true": 1189
+    },
+    "category_counts:admiration": {
+      "0": 65514,
+      "1": 5711
+    },
+    "category_counts:amusement": {
+      "0": 68105,
+      "1": 3120
+    },
+    "category_counts:anger": {
+      "0": 68492,
+      "1": 2733
+    },
+    "category_counts:annoyance": {
+      "0": 66607,
+      "1": 4618
+    },
+    "category_counts:approval": {
+      "0": 65318,
+      "1": 5907
+    },
+    "category_counts:caring": {
+      "0": 69199,
+      "1": 2026
+    },
+    "category_counts:confusion": {
+      "0": 68725,
+      "1": 2500
+    },
+    "category_counts:curiosity": {
+      "0": 67990,
+      "1": 3235
+    },
+    "category_counts:desire": {
+      "0": 69901,
+      "1": 1324
+    },
+    "category_counts:disappointment": {
+      "0": 68421,
+      "1": 2804
+    },
+    "category_counts:disapproval": {
+      "0": 67373,
+      "1": 3852
+    },
+    "category_counts:disgust": {
+      "0": 69381,
+      "1": 1844
+    },
+    "category_counts:embarrassment": {
+      "0": 70422,
+      "1": 803
+    },
+    "category_counts:excitement": {
+      "0": 69375,
+      "1": 1850
+    },
+    "category_counts:fear": {
+      "0": 70143,
+      "1": 1082
+    },
+    "category_counts:gratitude": {
+      "0": 67304,
+      "1": 3921
+    },
+    "category_counts:grief": {
+      "0": 70999,
+      "1": 226
+    },
+    "category_counts:joy": {
+      "0": 68504,
+      "1": 2721
+    },
+    "category_counts:love": {
+      "0": 68476,
+      "1": 2749
+    },
+    "category_counts:nervousness": {
+      "0": 70594,
+      "1": 631
+    },
+    "category_counts:optimism": {
+      "0": 68353,
+      "1": 2872
+    },
+    "category_counts:pride": {
+      "0": 70804,
+      "1": 421
+    },
+    "category_counts:realization": {
+      "0": 68224,
+      "1": 3001
+    },
+    "category_counts:relief": {
+      "0": 70828,
+      "1": 397
+    },
+    "category_counts:remorse": {
+      "0": 70388,
+      "1": 837
+    },
+    "category_counts:sadness": {
+      "0": 68888,
+      "1": 2337
+    },
+    "category_counts:surprise": {
+      "0": 69322,
+      "1": 1903
+    },
+    "category_counts:neutral": {
+      "0": 52609,
+      "1": 18616
+    }
+  },
+  {
+    "source": "datasets/stress-detection-main/stress-detection-main/Reddit_Combi.xlsx",
+    "table": "Reddit_Combi:Reddit_Combi",
+    "rows": 3123,
+    "columns": [
+      "title",
+      "body",
+      "Body_Title",
+      "label"
+    ],
+    "column_count": 4,
+    "missing_values": {
+      "title": 0,
+      "body": 7,
+      "Body_Title": 0,
+      "label": 0
+    },
+    "duplicate_rows": 0,
+    "category_counts:label": {
+      "1": 2745,
+      "0": 378
+    },
+    "label_distribution": {
+      "1": 2745,
+      "0": 378
+    }
+  },
+  {
+    "source": "datasets/stress-detection-main/stress-detection-main/Reddit_Combi.xlsx",
+    "table": "Reddit_Combi:Sheet1",
+    "rows": 0,
+    "columns": [],
+    "column_count": 0,
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "source": "datasets/stress-detection-main/stress-detection-main/Reddit_Title.xlsx",
+    "table": "Reddit_Title:Reddit_Title",
+    "rows": 5556,
+    "columns": [
+      "title",
+      "label"
+    ],
+    "column_count": 2,
+    "missing_values": {
+      "title": 0,
+      "label": 0
+    },
+    "duplicate_rows": 24,
+    "category_counts:label": {
+      "0": 2811,
+      "1": 2745
+    },
+    "label_distribution": {
+      "0": 2811,
+      "1": 2745
+    }
+  },
+  {
+    "source": "datasets/stress-detection-main/stress-detection-main/Reddit_Title.xlsx",
+    "table": "Reddit_Title:Sheet1",
+    "rows": 0,
+    "columns": [],
+    "column_count": 0,
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "source": "datasets/stress-detection-main/stress-detection-main/Twitter_Full.xlsx",
+    "table": "Twitter_Full:Twitter_Full",
+    "rows": 8900,
+    "columns": [
+      "text",
+      "hashtags",
+      "labels"
+    ],
+    "column_count": 3,
+    "missing_values": {
+      "text": 0,
+      "hashtags": 8,
+      "labels": 0
+    },
+    "duplicate_rows": 375,
+    "text_length_summary": {
+      "min": 11,
+      "p25": 122.0,
+      "median": 193.0,
+      "p75": 240.0,
+      "p90": 266.0,
+      "max": 1019,
+      "mean": 181.60853932584268
+    },
+    "category_counts:labels": {
+      "1": 4534,
+      "0": 4366
+    }
+  },
+  {
+    "source": "datasets/stress-detection-main/stress-detection-main/Twitter_Full.xlsx",
+    "table": "Twitter_Full:Sheet1",
+    "rows": 0,
+    "columns": [],
+    "column_count": 0,
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "source": "datasets/stress-detection-main/stress-detection-main/Twitter_Non-Advert.xlsx",
+    "table": "Twitter_Non-Advert:Twitter_ Non-Advert",
+    "rows": 2051,
+    "columns": [
+      "text",
+      "label"
+    ],
+    "column_count": 2,
+    "missing_values": {
+      "text": 0,
+      "label": 0
+    },
+    "duplicate_rows": 79,
+    "text_length_summary": {
+      "min": 12,
+      "p25": 116.0,
+      "median": 195.0,
+      "p75": 240.0,
+      "p90": 260.0,
+      "max": 414,
+      "mean": 177.28912725499757
+    },
+    "category_counts:label": {
+      "1": 1268,
+      "0": 783
+    },
+    "label_distribution": {
+      "1": 1268,
+      "0": 783
+    }
+  },
+  {
+    "source": "datasets/stress-detection-main/stress-detection-main/Twitter_Non-Advert.xlsx",
+    "table": "Twitter_Non-Advert:Sheet1",
+    "rows": 0,
+    "columns": [],
+    "column_count": 0,
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "source": "HuggingFace:andreagasparini/dreaddit",
+    "table": "train",
+    "rows": 2838,
+    "columns": [
+      "subreddit",
+      "post_id",
+      "sentence_range",
+      "text",
+      "id",
+      "label",
+      "confidence",
+      "social_timestamp",
+      "social_karma",
+      "syntax_ari",
+      "lex_liwc_WC",
+      "lex_liwc_Analytic",
+      "lex_liwc_Clout",
+      "lex_liwc_Authentic",
+      "lex_liwc_Tone",
+      "lex_liwc_WPS",
+      "lex_liwc_Sixltr",
+      "lex_liwc_Dic",
+      "lex_liwc_function",
+      "lex_liwc_pronoun",
+      "lex_liwc_ppron",
+      "lex_liwc_i",
+      "lex_liwc_we",
+      "lex_liwc_you",
+      "lex_liwc_shehe",
+      "lex_liwc_they",
+      "lex_liwc_ipron",
+      "lex_liwc_article",
+      "lex_liwc_prep",
+      "lex_liwc_auxverb",
+      "lex_liwc_adverb",
+      "lex_liwc_conj",
+      "lex_liwc_negate",
+      "lex_liwc_verb",
+      "lex_liwc_adj",
+      "lex_liwc_compare",
+      "lex_liwc_interrog",
+      "lex_liwc_number",
+      "lex_liwc_quant",
+      "lex_liwc_affect",
+      "lex_liwc_posemo",
+      "lex_liwc_negemo",
+      "lex_liwc_anx",
+      "lex_liwc_anger",
+      "lex_liwc_sad",
+      "lex_liwc_social",
+      "lex_liwc_family",
+      "lex_liwc_friend",
+      "lex_liwc_female",
+      "lex_liwc_male",
+      "lex_liwc_cogproc",
+      "lex_liwc_insight",
+      "lex_liwc_cause",
+      "lex_liwc_discrep",
+      "lex_liwc_tentat",
+      "lex_liwc_certain",
+      "lex_liwc_differ",
+      "lex_liwc_percept",
+      "lex_liwc_see",
+      "lex_liwc_hear",
+      "lex_liwc_feel",
+      "lex_liwc_bio",
+      "lex_liwc_body",
+      "lex_liwc_health",
+      "lex_liwc_sexual",
+      "lex_liwc_ingest",
+      "lex_liwc_drives",
+      "lex_liwc_affiliation",
+      "lex_liwc_achieve",
+      "lex_liwc_power",
+      "lex_liwc_reward",
+      "lex_liwc_risk",
+      "lex_liwc_focuspast",
+      "lex_liwc_focuspresent",
+      "lex_liwc_focusfuture",
+      "lex_liwc_relativ",
+      "lex_liwc_motion",
+      "lex_liwc_space",
+      "lex_liwc_time",
+      "lex_liwc_work",
+      "lex_liwc_leisure",
+      "lex_liwc_home",
+      "lex_liwc_money",
+      "lex_liwc_relig",
+      "lex_liwc_death",
+      "lex_liwc_informal",
+      "lex_liwc_swear",
+      "lex_liwc_netspeak",
+      "lex_liwc_assent",
+      "lex_liwc_nonflu",
+      "lex_liwc_filler",
+      "lex_liwc_AllPunc",
+      "lex_liwc_Period",
+      "lex_liwc_Comma",
+      "lex_liwc_Colon",
+      "lex_liwc_SemiC",
+      "lex_liwc_QMark",
+      "lex_liwc_Exclam",
+      "lex_liwc_Dash",
+      "lex_liwc_Quote",
+      "lex_liwc_Apostro",
+      "lex_liwc_Parenth",
+      "lex_liwc_OtherP",
+      "lex_dal_max_pleasantness",
+      "lex_dal_max_activation",
+      "lex_dal_max_imagery",
+      "lex_dal_min_pleasantness",
+      "lex_dal_min_activation",
+      "lex_dal_min_imagery",
+      "lex_dal_avg_activation",
+      "lex_dal_avg_imagery",
+      "lex_dal_avg_pleasantness",
+      "social_upvote_ratio",
+      "social_num_comments",
+      "syntax_fk_grade",
+      "sentiment"
+    ],
+    "column_count": 116,
+    "missing_values": {
+      "subreddit": 0,
+      "post_id": 0,
+      "sentence_range": 0,
+      "text": 0,
+      "id": 0,
+      "label": 0,
+      "confidence": 0,
+      "social_timestamp": 0,
+      "social_karma": 0,
+      "syntax_ari": 0,
+      "lex_liwc_WC": 0,
+      "lex_liwc_Analytic": 0,
+      "lex_liwc_Clout": 0,
+      "lex_liwc_Authentic": 0,
+      "lex_liwc_Tone": 0,
+      "lex_liwc_WPS": 0,
+      "lex_liwc_Sixltr": 0,
+      "lex_liwc_Dic": 0,
+      "lex_liwc_function": 0,
+      "lex_liwc_pronoun": 0,
+      "lex_liwc_ppron": 0,
+      "lex_liwc_i": 0,
+      "lex_liwc_we": 0,
+      "lex_liwc_you": 0,
+      "lex_liwc_shehe": 0,
+      "lex_liwc_they": 0,
+      "lex_liwc_ipron": 0,
+      "lex_liwc_article": 0,
+      "lex_liwc_prep": 0,
+      "lex_liwc_auxverb": 0,
+      "lex_liwc_adverb": 0,
+      "lex_liwc_conj": 0,
+      "lex_liwc_negate": 0,
+      "lex_liwc_verb": 0,
+      "lex_liwc_adj": 0,
+      "lex_liwc_compare": 0,
+      "lex_liwc_interrog": 0,
+      "lex_liwc_number": 0,
+      "lex_liwc_quant": 0,
+      "lex_liwc_affect": 0,
+      "lex_liwc_posemo": 0,
+      "lex_liwc_negemo": 0,
+      "lex_liwc_anx": 0,
+      "lex_liwc_anger": 0,
+      "lex_liwc_sad": 0,
+      "lex_liwc_social": 0,
+      "lex_liwc_family": 0,
+      "lex_liwc_friend": 0,
+      "lex_liwc_female": 0,
+      "lex_liwc_male": 0,
+      "lex_liwc_cogproc": 0,
+      "lex_liwc_insight": 0,
+      "lex_liwc_cause": 0,
+      "lex_liwc_discrep": 0,
+      "lex_liwc_tentat": 0,
+      "lex_liwc_certain": 0,
+      "lex_liwc_differ": 0,
+      "lex_liwc_percept": 0,
+      "lex_liwc_see": 0,
+      "lex_liwc_hear": 0,
+      "lex_liwc_feel": 0,
+      "lex_liwc_bio": 0,
+      "lex_liwc_body": 0,
+      "lex_liwc_health": 0,
+      "lex_liwc_sexual": 0,
+      "lex_liwc_ingest": 0,
+      "lex_liwc_drives": 0,
+      "lex_liwc_affiliation": 0,
+      "lex_liwc_achieve": 0,
+      "lex_liwc_power": 0,
+      "lex_liwc_reward": 0,
+      "lex_liwc_risk": 0,
+      "lex_liwc_focuspast": 0,
+      "lex_liwc_focuspresent": 0,
+      "lex_liwc_focusfuture": 0,
+      "lex_liwc_relativ": 0,
+      "lex_liwc_motion": 0,
+      "lex_liwc_space": 0,
+      "lex_liwc_time": 0,
+      "lex_liwc_work": 0,
+      "lex_liwc_leisure": 0,
+      "lex_liwc_home": 0,
+      "lex_liwc_money": 0,
+      "lex_liwc_relig": 0,
+      "lex_liwc_death": 0,
+      "lex_liwc_informal": 0,
+      "lex_liwc_swear": 0,
+      "lex_liwc_netspeak": 0,
+      "lex_liwc_assent": 0,
+      "lex_liwc_nonflu": 0,
+      "lex_liwc_filler": 0,
+      "lex_liwc_AllPunc": 0,
+      "lex_liwc_Period": 0,
+      "lex_liwc_Comma": 0,
+      "lex_liwc_Colon": 0,
+      "lex_liwc_SemiC": 0,
+      "lex_liwc_QMark": 0,
+      "lex_liwc_Exclam": 0,
+      "lex_liwc_Dash": 0,
+      "lex_liwc_Quote": 0,
+      "lex_liwc_Apostro": 0,
+      "lex_liwc_Parenth": 0,
+      "lex_liwc_OtherP": 0,
+      "lex_dal_max_pleasantness": 0,
+      "lex_dal_max_activation": 0,
+      "lex_dal_max_imagery": 0,
+      "lex_dal_min_pleasantness": 0,
+      "lex_dal_min_activation": 0,
+      "lex_dal_min_imagery": 0,
+      "lex_dal_avg_activation": 0,
+      "lex_dal_avg_imagery": 0,
+      "lex_dal_avg_pleasantness": 0,
+      "social_upvote_ratio": 0,
+      "social_num_comments": 0,
+      "syntax_fk_grade": 0,
+      "sentiment": 0
+    },
+    "duplicate_rows": 0,
+    "text_length_summary": {
+      "min": 6,
+      "p25": 339.0,
+      "median": 421.0,
+      "p75": 528.75,
+      "p90": 660.3000000000002,
+      "max": 1639,
+      "mean": 447.99647639182524
+    },
+    "category_counts:subreddit": {
+      "ptsd": 584,
+      "relationships": 552,
+      "anxiety": 503,
+      "domesticviolence": 316,
+      "assistance": 289,
+      "survivorsofabuse": 245,
+      "homeless": 168,
+      "almosthomeless": 80,
+      "stress": 64,
+      "food_pantry": 37
+    },
+    "category_counts:label": {
+      "1": 1488,
+      "0": 1350
+    },
+    "category_counts:confidence": {
+      "1.0": 1128,
+      "0.8": 595,
+      "0.6": 496,
+      "0.571428571": 369,
+      "0.833333333": 99,
+      "0.666666667": 71,
+      "0.5": 34,
+      "0.857142857": 30,
+      "0.714285714": 14,
+      "0.428571429": 2
+    },
+    "category_counts:lex_dal_max_imagery": {
+      "3.0": 2342,
+      "2.8": 300,
+      "2.6": 169,
+      "2.4": 15,
+      "2.2": 11,
+      "2.0": 1
+    },
+    "category_counts:lex_dal_min_imagery": {
+      "1.0": 2835,
+      "1.2": 3
+    },
+    "label_distribution": {
+      "1": 1488,
+      "0": 1350
+    }
+  },
+  {
+    "source": "HuggingFace:andreagasparini/dreaddit",
+    "table": "test",
+    "rows": 715,
+    "columns": [
+      "subreddit",
+      "post_id",
+      "sentence_range",
+      "text",
+      "id",
+      "label",
+      "confidence",
+      "social_timestamp",
+      "social_karma",
+      "syntax_ari",
+      "lex_liwc_WC",
+      "lex_liwc_Analytic",
+      "lex_liwc_Clout",
+      "lex_liwc_Authentic",
+      "lex_liwc_Tone",
+      "lex_liwc_WPS",
+      "lex_liwc_Sixltr",
+      "lex_liwc_Dic",
+      "lex_liwc_function",
+      "lex_liwc_pronoun",
+      "lex_liwc_ppron",
+      "lex_liwc_i",
+      "lex_liwc_we",
+      "lex_liwc_you",
+      "lex_liwc_shehe",
+      "lex_liwc_they",
+      "lex_liwc_ipron",
+      "lex_liwc_article",
+      "lex_liwc_prep",
+      "lex_liwc_auxverb",
+      "lex_liwc_adverb",
+      "lex_liwc_conj",
+      "lex_liwc_negate",
+      "lex_liwc_verb",
+      "lex_liwc_adj",
+      "lex_liwc_compare",
+      "lex_liwc_interrog",
+      "lex_liwc_number",
+      "lex_liwc_quant",
+      "lex_liwc_affect",
+      "lex_liwc_posemo",
+      "lex_liwc_negemo",
+      "lex_liwc_anx",
+      "lex_liwc_anger",
+      "lex_liwc_sad",
+      "lex_liwc_social",
+      "lex_liwc_family",
+      "lex_liwc_friend",
+      "lex_liwc_female",
+      "lex_liwc_male",
+      "lex_liwc_cogproc",
+      "lex_liwc_insight",
+      "lex_liwc_cause",
+      "lex_liwc_discrep",
+      "lex_liwc_tentat",
+      "lex_liwc_certain",
+      "lex_liwc_differ",
+      "lex_liwc_percept",
+      "lex_liwc_see",
+      "lex_liwc_hear",
+      "lex_liwc_feel",
+      "lex_liwc_bio",
+      "lex_liwc_body",
+      "lex_liwc_health",
+      "lex_liwc_sexual",
+      "lex_liwc_ingest",
+      "lex_liwc_drives",
+      "lex_liwc_affiliation",
+      "lex_liwc_achieve",
+      "lex_liwc_power",
+      "lex_liwc_reward",
+      "lex_liwc_risk",
+      "lex_liwc_focuspast",
+      "lex_liwc_focuspresent",
+      "lex_liwc_focusfuture",
+      "lex_liwc_relativ",
+      "lex_liwc_motion",
+      "lex_liwc_space",
+      "lex_liwc_time",
+      "lex_liwc_work",
+      "lex_liwc_leisure",
+      "lex_liwc_home",
+      "lex_liwc_money",
+      "lex_liwc_relig",
+      "lex_liwc_death",
+      "lex_liwc_informal",
+      "lex_liwc_swear",
+      "lex_liwc_netspeak",
+      "lex_liwc_assent",
+      "lex_liwc_nonflu",
+      "lex_liwc_filler",
+      "lex_liwc_AllPunc",
+      "lex_liwc_Period",
+      "lex_liwc_Comma",
+      "lex_liwc_Colon",
+      "lex_liwc_SemiC",
+      "lex_liwc_QMark",
+      "lex_liwc_Exclam",
+      "lex_liwc_Dash",
+      "lex_liwc_Quote",
+      "lex_liwc_Apostro",
+      "lex_liwc_Parenth",
+      "lex_liwc_OtherP",
+      "lex_dal_max_pleasantness",
+      "lex_dal_max_activation",
+      "lex_dal_max_imagery",
+      "lex_dal_min_pleasantness",
+      "lex_dal_min_activation",
+      "lex_dal_min_imagery",
+      "lex_dal_avg_activation",
+      "lex_dal_avg_imagery",
+      "lex_dal_avg_pleasantness",
+      "social_upvote_ratio",
+      "social_num_comments",
+      "syntax_fk_grade",
+      "sentiment"
+    ],
+    "column_count": 116,
+    "missing_values": {
+      "subreddit": 0,
+      "post_id": 0,
+      "sentence_range": 0,
+      "text": 0,
+      "id": 0,
+      "label": 0,
+      "confidence": 0,
+      "social_timestamp": 0,
+      "social_karma": 0,
+      "syntax_ari": 0,
+      "lex_liwc_WC": 0,
+      "lex_liwc_Analytic": 0,
+      "lex_liwc_Clout": 0,
+      "lex_liwc_Authentic": 0,
+      "lex_liwc_Tone": 0,
+      "lex_liwc_WPS": 0,
+      "lex_liwc_Sixltr": 0,
+      "lex_liwc_Dic": 0,
+      "lex_liwc_function": 0,
+      "lex_liwc_pronoun": 0,
+      "lex_liwc_ppron": 0,
+      "lex_liwc_i": 0,
+      "lex_liwc_we": 0,
+      "lex_liwc_you": 0,
+      "lex_liwc_shehe": 0,
+      "lex_liwc_they": 0,
+      "lex_liwc_ipron": 0,
+      "lex_liwc_article": 0,
+      "lex_liwc_prep": 0,
+      "lex_liwc_auxverb": 0,
+      "lex_liwc_adverb": 0,
+      "lex_liwc_conj": 0,
+      "lex_liwc_negate": 0,
+      "lex_liwc_verb": 0,
+      "lex_liwc_adj": 0,
+      "lex_liwc_compare": 0,
+      "lex_liwc_interrog": 0,
+      "lex_liwc_number": 0,
+      "lex_liwc_quant": 0,
+      "lex_liwc_affect": 0,
+      "lex_liwc_posemo": 0,
+      "lex_liwc_negemo": 0,
+      "lex_liwc_anx": 0,
+      "lex_liwc_anger": 0,
+      "lex_liwc_sad": 0,
+      "lex_liwc_social": 0,
+      "lex_liwc_family": 0,
+      "lex_liwc_friend": 0,
+      "lex_liwc_female": 0,
+      "lex_liwc_male": 0,
+      "lex_liwc_cogproc": 0,
+      "lex_liwc_insight": 0,
+      "lex_liwc_cause": 0,
+      "lex_liwc_discrep": 0,
+      "lex_liwc_tentat": 0,
+      "lex_liwc_certain": 0,
+      "lex_liwc_differ": 0,
+      "lex_liwc_percept": 0,
+      "lex_liwc_see": 0,
+      "lex_liwc_hear": 0,
+      "lex_liwc_feel": 0,
+      "lex_liwc_bio": 0,
+      "lex_liwc_body": 0,
+      "lex_liwc_health": 0,
+      "lex_liwc_sexual": 0,
+      "lex_liwc_ingest": 0,
+      "lex_liwc_drives": 0,
+      "lex_liwc_affiliation": 0,
+      "lex_liwc_achieve": 0,
+      "lex_liwc_power": 0,
+      "lex_liwc_reward": 0,
+      "lex_liwc_risk": 0,
+      "lex_liwc_focuspast": 0,
+      "lex_liwc_focuspresent": 0,
+      "lex_liwc_focusfuture": 0,
+      "lex_liwc_relativ": 0,
+      "lex_liwc_motion": 0,
+      "lex_liwc_space": 0,
+      "lex_liwc_time": 0,
+      "lex_liwc_work": 0,
+      "lex_liwc_leisure": 0,
+      "lex_liwc_home": 0,
+      "lex_liwc_money": 0,
+      "lex_liwc_relig": 0,
+      "lex_liwc_death": 0,
+      "lex_liwc_informal": 0,
+      "lex_liwc_swear": 0,
+      "lex_liwc_netspeak": 0,
+      "lex_liwc_assent": 0,
+      "lex_liwc_nonflu": 0,
+      "lex_liwc_filler": 0,
+      "lex_liwc_AllPunc": 0,
+      "lex_liwc_Period": 0,
+      "lex_liwc_Comma": 0,
+      "lex_liwc_Colon": 0,
+      "lex_liwc_SemiC": 0,
+      "lex_liwc_QMark": 0,
+      "lex_liwc_Exclam": 0,
+      "lex_liwc_Dash": 0,
+      "lex_liwc_Quote": 0,
+      "lex_liwc_Apostro": 0,
+      "lex_liwc_Parenth": 0,
+      "lex_liwc_OtherP": 0,
+      "lex_dal_max_pleasantness": 0,
+      "lex_dal_max_activation": 0,
+      "lex_dal_max_imagery": 0,
+      "lex_dal_min_pleasantness": 0,
+      "lex_dal_min_activation": 0,
+      "lex_dal_min_imagery": 0,
+      "lex_dal_avg_activation": 0,
+      "lex_dal_avg_imagery": 0,
+      "lex_dal_avg_pleasantness": 0,
+      "social_upvote_ratio": 0,
+      "social_num_comments": 0,
+      "syntax_fk_grade": 0,
+      "sentiment": 0
+    },
+    "duplicate_rows": 0,
+    "text_length_summary": {
+      "min": 64,
+      "p25": 335.0,
+      "median": 424.0,
+      "p75": 524.5,
+      "p90": 646.6,
+      "max": 1433,
+      "mean": 446.37342657342657
+    },
+    "category_counts:subreddit": {
+      "anxiety": 147,
+      "relationships": 142,
+      "ptsd": 127,
+      "domesticviolence": 72,
+      "survivorsofabuse": 70,
+      "assistance": 66,
+      "homeless": 52,
+      "almosthomeless": 19,
+      "stress": 14,
+      "food_pantry": 6
+    },
+    "category_counts:label": {
+      "1": 369,
+      "0": 346
+    },
+    "category_counts:confidence": {
+      "1.0": 265,
+      "0.8": 147,
+      "0.6": 136,
+      "0.0": 98,
+      "0.8333333333333334": 26,
+      "0.6666666666666666": 18,
+      "0.5": 14,
+      "0.8571428571428571": 7,
+      "0.5714285714285714": 3,
+      "0.7142857142857143": 1
+    },
+    "category_counts:lex_dal_max_imagery": {
+      "3.0": 581,
+      "2.8": 79,
+      "2.6": 48,
+      "2.4": 4,
+      "2.2": 2,
+      "2.0": 1
+    },
+    "category_counts:lex_dal_min_activation": {
+      "1.0": 204,
+      "1.1429": 186,
+      "1.125": 140,
+      "1.1818": 75,
+      "1.25": 28,
+      "1.2": 20,
+      "1.3333": 16,
+      "1.1111": 8,
+      "1.2857": 7,
+      "1.1667": 7,
+      "1.3": 6,
+      "1.2727": 6,
+      "1.0833": 5,
+      "1.2222": 4,
+      "1.1": 1,
+      "1.4444": 1,
+      "1.7778": 1
+    },
+    "category_counts:lex_dal_min_imagery": {
+      "1.0": 714,
+      "1.2": 1
+    },
+    "label_distribution": {
+      "1": 369,
+      "0": 346
+    }
+  }
+]
